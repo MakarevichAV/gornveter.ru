@@ -409,6 +409,7 @@ header {
     display: flex;
     align-items: flex-start;
     flex-direction: row;
+    flex-basis: 350px
 }
 
 .offer__picture {
@@ -636,6 +637,22 @@ textarea.form__flex-el {
 
 .footer__bottom {
     background: #203144;
+    padding: 14px 20px;
+}
+
+.footer__bottom p {
+    text-align: center;
+    font-size: 22px;
+    color: white;
+}
+
+.footer__bottom p:nth-child(2) {
+    color: #BABABA;
+    font-size: 18px;
+}
+
+.footer__bottom p a {
+    color: #FFA316;
 }
 
 .footer__logo .logo {

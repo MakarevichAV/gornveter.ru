@@ -530,13 +530,12 @@
             </div>
             <div class="footer__bottom">
                 <p>© 2018 - 2021 "gornveter.ru". Все права защищены</p>
-                <p>Сайт разработан веб-студией Makar&M </p>
+                <p>Сайт разработан веб-студией <a href="#">Makar&M</a> </p>
             </div>
         </footer>
 
         <script type="text/javascript">
             function setCursorPosition(pos, e) {
-                // e.focus();
                 if (e.setSelectionRange) e.setSelectionRange(pos, pos);
                 else if (e.createTextRange) {
                 var range = e.createTextRange();
@@ -564,12 +563,10 @@
             window.addEventListener("DOMContentLoaded", function() {
                 var input = document.querySelector("#online_phone");
                 input.addEventListener("input", mask, false);
-                // input.focus();
                 setCursorPosition(3, input);
 
                 var input2 = document.querySelector("#online_phone_2");
                 input2.addEventListener("input", mask, false);
-                // input.focus();
                 setCursorPosition(3, input2);
             });
         </script>
