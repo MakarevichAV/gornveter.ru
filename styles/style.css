@@ -596,14 +596,14 @@ textarea.form__flex-el {
     max-width: 1240px;
     margin: 0 auto;
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .footer__menu {
     margin: 0 20px;
-    margin-bottom: 30px;
+    margin-bottom: 45px;
     display: flex;
 }
 
@@ -626,11 +626,12 @@ textarea.form__flex-el {
 
 .footer__logo {
     margin: 0 20px;
-    margin-bottom: 30px;
+    margin-bottom: 45px;
 }
 
 .footer__contact {
     margin: 0 20px;
+    margin-bottom: 45px;
 }
 
 .footer__bottom {
@@ -639,4 +640,12 @@ textarea.form__flex-el {
 
 .footer__logo .logo {
     margin-bottom: 20px;
+}
+
+
+@media (max-width: 1000px) {
+    .footer__flex-container {
+        justify-content: space-around;
+    }
+    
 }
