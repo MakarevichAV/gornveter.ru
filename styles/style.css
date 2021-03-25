@@ -237,9 +237,35 @@ header {
 
 .section {
     padding: 80px 0;
+    position: relative;
 }
 
-.section-type1 {}
+div {
+    position: relative;
+    z-index: 1;
+}
+
+.section-type1:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 450px;
+    background: url(../images/bg-right.png) no-repeat top right / contain;
+}
+
+.section-type2:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 450px;
+    background: url(../images/bg-left.png) no-repeat top left / contain;
+}
 
 .services {}
 
@@ -250,6 +276,8 @@ header {
     flex-wrap: wrap;
     margin: 0 auto;
     max-width: 1240px;
+    position: relative;
+    z-index: 1;
 }
 
 .services__card {
