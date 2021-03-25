@@ -55,7 +55,6 @@ header {
 .header__logo {
     width: 200px;
     height: 80px;
-    background: red;
 }
 
 .header__menu {}
@@ -588,16 +587,56 @@ textarea.form__flex-el {
 
 .footer {}
 
-.footer__top {}
+.footer__top {
+    background: #3B5675;
+    padding: 60px 20px;
+}
 
-.footer__flex-container {}
+.footer__flex-container {
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
-.footer__menu {}
+.footer__menu {
+    margin: 0 20px;
+    margin-bottom: 30px;
+    display: flex;
+}
 
-.footer__menu-item {}
+.footer__menu-block {
+    margin-right: 20px;
+}
 
-.footer__logo {}
+.footer__menu-item a {
+    color: white;
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 14px;
+    display: block;
+    max-width: 190px;
+}
 
-.footer__contact {}
+.footer__menu-item a:hover {
+    color: #FFA316;
+}
 
-.footer__bottom {}
+.footer__logo {
+    margin: 0 20px;
+    margin-bottom: 30px;
+}
+
+.footer__contact {
+    margin: 0 20px;
+}
+
+.footer__bottom {
+    background: #203144;
+}
+
+.footer__logo .logo {
+    margin-bottom: 20px;
+}

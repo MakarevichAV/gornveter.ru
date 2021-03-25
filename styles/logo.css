@@ -1,0 +1,178 @@
+@keyframes rotate-logo {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes wind1 {
+    0% {
+        left: 80px;
+        opacity: 0;
+    }
+
+    100% {
+        left: 110px;
+        opacity: 1;
+    }
+}
+
+@keyframes wind2 {
+    0% {
+        left: 120px;
+        opacity: 0;
+    }
+
+    100% {
+        left: 145px;
+        opacity: 1;
+    }
+}
+
+@keyframes wind3 {
+    0% {
+        left: 100px;
+        opacity: 0;
+    }
+
+    100% {
+        left: 135px;
+        opacity: 1;
+    }
+}
+
+@keyframes wind4 {
+    0% {
+        left: 76px;
+        opacity: 0;
+    }
+
+    100% {
+        left: 100px;
+        opacity: 1;
+    }
+}
+
+@keyframes wind5 {
+    0% {
+        left: 65px;
+        opacity: 0;
+    }
+
+    100% {
+        left: 90px;
+        opacity: 1;
+    }
+}
+
+@keyframes wind6 {
+    0% {
+        left: 55px;
+        opacity: 0;
+    }
+
+    100% {
+        left: 80px;
+        opacity: 1;
+    }
+}
+
+.logo {
+    height: 100px;
+    width: 150px;
+    position: relative;
+}
+
+.el1 {
+    height: 100px;
+    width: 100px;
+    background: url(../images/logo/Лого\ для\ Горный\ ветер.svg) no-repeat center center / contain;
+    animation: rotate-logo 1.5s infinite linear;
+}
+
+.el2 {
+    width: 28px;
+    height: 10px;
+    background: url(../images/logo/ветер1.svg) no-repeat center center / contain;
+    position: absolute;
+    top: 8px;
+    left: 80px;
+    animation: wind1 0.3s infinite linear;
+}
+
+.el3 {
+    width: 34px;
+    height: 12px;
+    background: url(../images/logo/ветер2.svg) no-repeat center center / contain;
+    position: absolute;
+    top: 42px;
+    left: 120px;
+    animation: wind2 0.4s infinite linear;
+}
+
+.el4 {
+    width: 16px;
+    height: 10px;
+    background: url(../images/logo/ветер3.svg) no-repeat center center / contain;
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    animation: wind3 0.3s infinite linear;
+}
+
+.el5 {
+    width: 20px;
+    height: 12px;
+    background: url(../images/logo/ветер2.svg) no-repeat center center / contain;
+    position: absolute;
+    top: 34px;
+    left: 76px;
+    animation: wind4 0.24s infinite linear;
+}
+
+.el6 {
+    width: 28px;
+    height: 14px;
+    background: url(../images/logo/ветер1.svg) no-repeat center center / contain;
+    position: absolute;
+    top: 60px;
+    left: 65px;
+    animation: wind5 0.4s infinite linear;
+}
+
+.el7 {
+    width: 28px;
+    height: 14px;
+    background: url(../images/logo/ветер3.svg) no-repeat center center / contain;
+    position: absolute;
+    top: 20px;
+    left: 55px;
+    animation: wind6 0.23s infinite linear;
+}
+
+.el8 {
+    width: 6px;
+    height: 46px;
+    background: #3B5675;
+    position: absolute;
+    bottom: 0;
+    left: 46px;
+}
+
+.el9 {
+    position: absolute;
+    height: 80px;
+    width: 120px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 110px;
+    display: flex;
+    align-items: center;
+    font-size: 31px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    background: url(../images/logo/logo1.svg) no-repeat center left / contain;
+}
