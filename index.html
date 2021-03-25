@@ -338,46 +338,81 @@
             <div class="reviews__item">
                 <div class="reviews__picture"></div>
                 <div class="reviews__description">
-                    <div class="reviews__name">Григорий</div>
-                    <div class="reviews__date"></div>
-                    <div class="reviews__text"></div>
-                </div>
-            </div>
-            <div class="reviews__item">
-                <div class="reviews__picture"></div>
-                <div class="reviews__description">
-                    <div class="reviews__name">Оксана</div>
-                    <div class="reviews__date"></div>
-                    <div class="reviews__text"></div>
-                </div>
-            </div>
-            <div class="reviews__item">
-                <div class="reviews__picture"></div>
-                <div class="reviews__description">
-                    <div class="reviews__name">Александр</div>
-                    <div class="reviews__date"></div>
-                    <div class="reviews__text"></div>
-                </div>
-            </div>
-            <form class="reviews__form form" action="#" method="POST">
-                <h4 class="form__head">Оставить отзыв</h4>
-                <div class="form__flex-container">
-                    <textarea class="form__flex-el" name="review"
-                        placeholder="Напишите Ваш отзыв *"></textarea>
-                    <div class="form__flex-el">
-                        <input type="text" name="name" placeholder="Ваше имя *"
-                            />
-                        <input class="btn btn-green form__btn" type="file"
-                            name="file" placeholder="Выбрать фото" />
-                        <button class="btn btn-blue form__btn">Оставить отзыв</button>
+                    <h4 class="reviews__name">Григорий</h4>
+                    <div class="reviews__date">25.03.2021</div>
+                    <div class="reviews__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </div>
                 </div>
-            </form>
+            </div>
+            <div class="reviews__item">
+                <div class="reviews__picture"></div>
+                <div class="reviews__description">
+                    <h4 class="reviews__name">Оксана</h4>
+                    <div class="reviews__date"></div>
+                    <div class="reviews__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    </div>
+                </div>
+            </div>
+            <div class="reviews__item">
+                <div class="reviews__picture" style="background: url(./images/reviews/XHN2sNBGFxc.jpg) no-repeat center center / cover;"></div>
+                <div class="reviews__description">
+                    <h4 class="reviews__name">Александр</h4>
+                    <div class="reviews__date"></div>
+                    <div class="reviews__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+            </div>
+            <div class="wrap">
+                <form class="reviews__form form" action="#" method="POST">
+                    <h4 class="form__head">Оставить отзыв</h4>
+                    <div class="form__flex-container">
+                        <textarea class="form__flex-el" name="review"
+                            placeholder="Напишите Ваш отзыв *"></textarea>
+                        <div class="form__flex-el form__inputs">
+                            <input class="btn form__name" type="text" name="name" placeholder="Ваше имя *"
+                                />
+                            <input class="btn btn-green form__btn" id="file" type="file"
+                                name="file" placeholder="Выбрать фото" />
+                            <label for="file">
+                                <div class="btn btn-green form__btn"> Выбрать фото </div>
+                            </label>
+                            <button class="btn btn-blue form__btn">Оставить отзыв</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
 
         <div class="section section-type2" id="contact">
             <div class="wrap">
-                <div class="section__contact contact">
+
+
+                <div class="contact__item">
+                    <div class="contact__picture img-phone section__img-phone"></div>
+                    <div class="contact__numbers section__numbers">
+                        <a href="tel:+79082548861">+7 908 254-88-61</a>
+                        <a href="tel:+79082548861">+7 908 254-88-61</a>
+                    </div>
+                </div>
+                <div class="contact__item">
+                    <div class="contact__picture img-email section__img-email"></div>
+                    <div class="contact__email section__email">
+                        <a href="email:gornveter@mail.com">gornveter@mail.com</a>
+                    </div>
+                </div>
+
+
+                <!-- <div class="section__contact contact">
                     <div class="contact__item">
                         <div class="contact__picture"></div>
                         <div class="contact__numbers">
@@ -391,7 +426,7 @@
                             gornveter@mail.com
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
 

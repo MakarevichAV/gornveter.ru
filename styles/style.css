@@ -151,6 +151,7 @@ header {
     color: white;
     font-weight: bold;
     cursor: pointer;
+    padding: 0 20px;
 }
 
 .info__btn--blue {
@@ -473,31 +474,117 @@ header {
 
 .reviews {}
 
-.reviews__item {}
+.reviews__item {
+    display: flex;
+    align-items: flex-start;
+    max-width: 1240px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
 
-.reviews__picture {}
+.reviews__picture {
+    min-width: 100px;
+    height: 100px;
+    margin: 0 20px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border: 4px solid #079F71;
+    background: url(../images/icon/user.svg) no-repeat center center / 110%;
+}
 
-.reviews__description {}
+.reviews__description {
+    flex-grow: 1;
+    margin: 0 20px;
+}
 
 .reviews__name {}
 
-.reviews__date {}
+.reviews__date {
+    font-size: 22px;
+    color: #079F71;
+    margin-bottom: 12px;
+}
 
-.reviews__text {}
+.reviews__text {
+    font-size: 20px;
+}
 
-.reviews__form {}
+.reviews__form {
+    background: #EFEFEF;
+    border: 1px solid #C8C8C8;
+    box-shadow: 1px 3px 9px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
 
 .form {}
 
-.form__head {}
+.form__head {
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
 
-.form__flex-container {}
+.form__flex-container {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
 
-.form__flex-el {}
+.form__flex-el {
+    flex-grow: 1;
+    margin: 0 20px;
+}
 
-.form__btn {}
+textarea.form__flex-el {
+    min-width: 50%;
+    border-radius: 16px;
+    padding: 20px;
+    font-size: 22px;
+    margin-bottom: 14px;
+}
+
+.form .btn {
+    margin-bottom: 14px;
+}
+
+.form .btn-green {
+    line-height: 50px;
+    text-align: center;
+}
+
+.form #file {
+    display: none;
+}
+
+.form__name {
+    padding: 0 20px;
+    text-align: center;
+    color: #3B5675;
+}
+
+.form__inputs {
+    min-width: 300px;
+}
 
 .section__contact {}
+
+.section__img-phone {
+    background: url(../images/icon/phone2.png) no-repeat center center / contain;
+}
+
+.section__img-email {
+    background: url(../images/icon/email2.png) no-repeat center center / contain;
+}
+
+.section__numbers a {
+    color: #FFA316;
+}
+
+.section__email a {
+    color: #FFA316;
+}
 
 .footer {}
 
