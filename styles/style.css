@@ -27,6 +27,14 @@ h3 {
     padding: 0 20px;
 }
 
+h4 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #3B5675;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+
 .wrap {
     max-width: 1240px;
     margin: 0 auto;
@@ -395,17 +403,47 @@ header {
 
 .offer {}
 
-.offer__card {}
+.offer__card {
+    background: white;
+    padding: 30px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
 
-.offer__picture {}
+.offer__picture {
+    min-width: 50px;
+    height: 50px;
+    flex-grow: 1;
+    margin-right: 20px;
+    background: no-repeat center center / contain;
+}
 
-.offer__description {}
+.offer__description {
+    flex-grow: 1;
+}
 
-.offer__text {}
+.offer__text {
+    font-size: 20px;
+}
 
-.offer__brands {}
+.offer__brands {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1240px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
 
-.offer__brand {}
+.offer__brand {
+    width: 140px;
+    height: 70px;
+    background-color: red;
+    margin: 0 20px;
+    margin-bottom: 20px;
+}
 
 .feetback__flex-container {}
 
