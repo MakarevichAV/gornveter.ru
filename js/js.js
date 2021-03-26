@@ -4,7 +4,7 @@ let header = document.querySelector('.fixed-header');
 console.dir(headerHeight);
 // header.classList.add('fixed-header');
 
-window.addEventListener('wheel', () => {
+window.addEventListener('scroll', () => {
     if (window.scrollY >= headerPicture + headerHeight) {
         header.classList.add('drop-down');
     } else {
