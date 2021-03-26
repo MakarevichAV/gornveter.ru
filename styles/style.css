@@ -172,6 +172,7 @@ header {
 .info__footer {
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
     margin: 0 auto;
@@ -179,6 +180,8 @@ header {
 
 .social {
     display: flex;
+    margin: 0 20px;
+    margin-bottom: 20px;
 }
 
 .social__icon {
@@ -188,7 +191,9 @@ header {
     margin-right: 10px;
 }
 
-.info-footer__contact {}
+.info-footer__contact {
+    margin: 0 20px;
+}
 
 .contact {}
 
@@ -684,6 +689,8 @@ textarea.form__flex-el {
 }
 
 .footer__logo .logo {
+    width: 230px;
+    margin: 0 auto;
     margin-bottom: 20px;
 }
 
