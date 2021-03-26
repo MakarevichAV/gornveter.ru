@@ -688,9 +688,20 @@ textarea.form__flex-el {
 }
 
 
-@media (max-width: 1000px) {
-    .footer__flex-container {
-        justify-content: space-around;
-    }
-    
+
+
+
+/* Стили js */
+.fixed-header {
+    position: fixed;
+    z-index: 20;
+    width: 100%;
+    background-color: rgba(245, 242, 255, 0.95);
+    border-bottom: 1px solid #3B5675;
+    top: -100%;
+}
+
+.drop-down {
+    top: 0;
+    transition: 0.5s;
 }

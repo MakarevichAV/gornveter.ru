@@ -9,9 +9,58 @@
             rel="stylesheet">
         <link rel="stylesheet" href="./styles/style.css">
         <link rel="stylesheet" href="./styles/logo.css">
+        <link rel="stylesheet" href="./styles/mobile.css">
         <title>Главная</title>
     </head>
     <body id="top">
+
+        <!-- Header который выплывает при прокрутке  НАЧАЛО -->
+        <div class="fixed-header">
+            <div class="wrap wrap-flex">
+                <div class="header__logo logo">
+
+                    <div class="el8"></div>
+                    <div class="el1"></div>
+                    <div class="el2"></div>
+                    <div class="el3"></div>
+                    <div class="el4"></div>
+                    <div class="el5"></div>
+                    <div class="el6"></div>
+                    <div class="el7"></div>
+                    <div class="el9"></div>
+
+                </div>
+                <div class="header__menu">
+                    <ul>
+                        <li class="header__menu-item header__menu-item--active">Главная</li>
+                        <li class="header__menu-item drop-down-container">
+                            Наши услуги
+                            <span class="menu-item__arrow"></span>
+                            <ul class="drop-down-block">
+                                <li class="drop-down-block__item"><a
+                                        href="./pages/instalation.php">Монтаж
+                                        сплит-ситем</a></li>
+                                <li class="drop-down-block__item"><a
+                                        href="./pages/laying.php">Закладка
+                                        коммуникаций</a></li>
+                                <li class="drop-down-block__item"><a
+                                        href="./pages/service.php">Чистка и
+                                        обслуживание кондиционеров</a></li>
+                                <li class="drop-down-block__item"><a
+                                        href="./pages/repair.php">Ремонт
+                                        сплит-систем</a></li>
+                            </ul>
+                        </li>
+                        <li class="header__menu-item"><a href="#goods">Продукция</a></li>
+                        <li class="header__menu-item"><a href="#about">О нас</a></li>
+                        <li class="header__menu-item"><a
+                                href="./pages/price.php">Цены</a></li>
+                        <li class="header__menu-item"><a href="#contact">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Header который выплывает при прокрутке  КОНЕЦ -->
 
         <header>
             <div class="wrap wrap-flex">
@@ -128,15 +177,15 @@
                 </div>
                 <div class="services__card flex-el">
                     <div class="services__picture" style="background:
-                    url(./images/services/cleaning.jpg) no-repeat center
-                    center / cover;"></div>
+                        url(./images/services/cleaning.jpg) no-repeat center
+                        center / cover;"></div>
                     <div class="services__title">Обслуживание и чистка</div>
                     <button class="btn btn-blue card__btn">Подробнее ></button>
                 </div>
                 <div class="services__card flex-el">
                     <div class="services__picture" style="background:
-                    url(./images/services/laying.jpg) no-repeat center
-                    center / cover;"></div>
+                        url(./images/services/laying.jpg) no-repeat center
+                        center / cover;"></div>
                     <div class="services__title">Закладка коммуникаций</div>
                     <button class="btn btn-blue card__btn">Подробнее ></button>
                 </div>
@@ -156,32 +205,32 @@
                 </div>
                 <div class="goods__card">
                     <div class="goods__picture" style="background:
-                    url(./images/goods/lessar.jpg) no-repeat center center /
-                    contain;"></div>
+                        url(./images/goods/lessar.jpg) no-repeat center center /
+                        contain;"></div>
                     <div class="goods__title">Системы Lessar</div>
                     <div class="goods__price">от <span>36000</span> ₽</div>
                     <button class="btn btn-orange card__btn">Проконсультироваться</button>
                 </div>
                 <div class="goods__card">
                     <div class="goods__picture" style="background:
-                    url(./images/goods/jax.jpg) no-repeat center center /
-                    contain;"></div>
+                        url(./images/goods/jax.jpg) no-repeat center center /
+                        contain;"></div>
                     <div class="goods__title">Системы Jax</div>
                     <div class="goods__price">от <span>28000</span> ₽</div>
                     <button class="btn btn-orange card__btn">Проконсультироваться</button>
                 </div>
                 <div class="goods__card">
                     <div class="goods__picture" style="background:
-                    url(./images/goods/tosot.jpg) no-repeat center center /
-                    contain;"></div>
+                        url(./images/goods/tosot.jpg) no-repeat center center /
+                        contain;"></div>
                     <div class="goods__title">Системы Tosot</div>
                     <div class="goods__price">от <span>20000</span> ₽</div>
                     <button class="btn btn-orange card__btn">Проконсультироваться</button>
                 </div>
                 <div class="goods__card">
                     <div class="goods__picture" style="background:
-                    url(./images/goods/haier.jpg) no-repeat center center /
-                    contain;"></div>
+                        url(./images/goods/haier.jpg) no-repeat center center /
+                        contain;"></div>
                     <div class="goods__title">Системы Haier</div>
                     <div class="goods__price">от <span>15000</span> ₽</div>
                     <button class="btn btn-orange card__btn">Проконсультироваться</button>
@@ -542,7 +591,8 @@
             </div>
             <div class="footer__bottom">
                 <p>© 2018 - 2021 "gornveter.ru". Все права защищены</p>
-                <p>Сайт разработан веб-студией <a href="https://vk.com/makarchik89">Makar&M</a> </p>
+                <p>Сайт разработан веб-студией <a
+                        href="https://vk.com/makarchik89">Makar&M</a> </p>
             </div>
         </footer>
 
@@ -582,5 +632,8 @@
                 setCursorPosition(3, input2);
             });
         </script>
+
+        <script src="./js/js.js"></script>
+
     </body>
 </html>
