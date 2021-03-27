@@ -9,6 +9,11 @@
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
+body {
+    overflow-x: hidden;
+    position: relative;
+}
+
 h2 {
     font-size: 42px;
     font-weight: bold;
@@ -83,6 +88,7 @@ header {
 
 .menu-item__arrow {
     color: #3B5675;
+    font-size: 18px;
 }
 
 .drop-down-container {
@@ -695,6 +701,67 @@ textarea.form__flex-el {
 }
 
 
+/* Для адаптива */
+.header__menu-mobile {
+    /* display: none; */
+    position: fixed;
+    right: 0;
+    top: 100px;
+    background: white;
+    min-height: 100vh;
+    width: 100%;
+    z-index: 30;
+    border-top: 1px solid #3b5675;
+    padding: 20px;
+}
+
+.header__menu-mobile .info-footer__contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.header__menu-mobile .contact__item {
+    font-size: 22px;
+    margin: 0 auto;
+}
+
+.header__menu-mobile>ul {
+    color: #3B5675;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header__menu-mobile .header__menu-item {
+    margin: 0;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.header__menu-mobile .header__menu-item:hover {
+    background: rgb(230, 230, 230);
+}
+
+.header__menu-mobile .header__menu-item--active:hover {
+    background: none;
+}
+
+.header__menu-button {
+    display: none;
+    padding: 10px;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.line {
+    background: #3B5675;
+    height: 12px;
+    width: 100%;
+}
 
 
 
