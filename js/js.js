@@ -38,6 +38,17 @@ menuItemRef.forEach((el, ind) => {
         window.scrollTo({
             top: targetElement.offsetTop - 100,
             behavior: 'smooth',
-          });
+        });
+    });
+});
+
+// Выплывающий блок пункта меню
+let dropDownContainer = document.querySelectorAll(".drop-down-container");
+dropDownContainer.forEach((elem, ind) => {
+    elem.addEventListener('mouseover', () => {
+        elem.querySelector('.drop-down-block').classList.add('show-block');
+    });
+    elem.addEventListener('mouseout', () => {
+        elem.querySelector('.drop-down-block').classList.remove('show-block');
     });
 });

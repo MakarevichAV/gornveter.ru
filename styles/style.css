@@ -55,6 +55,8 @@ h4 {
 
 header {
     min-height: 100px;
+    position: relative;
+    z-index: 30;
 }
 
 .header__logo {
@@ -100,12 +102,31 @@ header {
     display: none;
     background: #EFEFEF;
     position: absolute;
-    padding: 20px;
+    /* padding: 20px; */
     width: 250px;
 }
 
-.drop-down-block__item {
+.show-block {
+    display: block;
+}
+
+.header__menu-mobile .drop-down-block {
+    position: relative;
+    margin: 0 auto;
+}
+
+.drop-down-block__item a {
+    display: block;
     margin-bottom: 10px;
+    padding: 10px 20px;
+}
+
+.drop-down-block__item:hover {
+    background: #079F71;
+}
+
+.drop-down-block__item:hover a {
+    color: white;
 }
 
 .info {
@@ -736,7 +757,8 @@ textarea.form__flex-el {
     margin-bottom: 30px;
 }
 
-.header__menu-mobile .header__menu-item a, .header__menu-mobile .drop-down-container {
+.header__menu-mobile .header__menu-item a,
+.header__menu-mobile .drop-down-container {
     margin: 0;
     padding: 10px 0;
     cursor: pointer;
@@ -744,8 +766,10 @@ textarea.form__flex-el {
 }
 
 .header__menu-mobile .header__menu-item:hover {
-    background: rgb(230, 230, 230);
+    background: #EFEFEF;
 }
+
+
 
 .header__menu-mobile .header__menu-item--active:hover {
     background: none;
