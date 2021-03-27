@@ -2,35 +2,37 @@
     .footer__flex-container {
         justify-content: space-around;
     }
+
     .info__footer {
         justify-content: space-around;
     }
+
     .header__menu>ul {
         font-size: 26px;
-    } 
+    }
 }
 
 @media (max-width: 900px) {
     .header__menu {
         display: none;
     }
+
     .header__menu-button {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
     }
-    /* .btn {
-        height: 44px;
-        width: 100%;
-        border-radius: 16px;
-        font-size: 20px;
-        color: white;
-        font-weight: bold;
-        cursor: pointer;
-        padding: 0 20px;
-    } */
+
     .about__card {
         max-width: 100%;
+    }
+
+    .section-type1:before {
+        width: 60%;
+    }
+
+    .section-type2:before {
+        width: 60%;
     }
 }
