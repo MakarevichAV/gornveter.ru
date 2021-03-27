@@ -705,7 +705,7 @@ textarea.form__flex-el {
 .header__menu-mobile {
     /* display: none; */
     position: fixed;
-    right: 0;
+    right: -100%;
     top: 100px;
     background: white;
     min-height: 100vh;
@@ -713,6 +713,7 @@ textarea.form__flex-el {
     z-index: 30;
     border-top: 1px solid #3b5675;
     padding: 20px;
+    transition: 0.2s;
 }
 
 .header__menu-mobile .info-footer__contact {
@@ -761,6 +762,11 @@ textarea.form__flex-el {
     background: #3B5675;
     height: 12px;
     width: 100%;
+}
+
+.show-menu {
+    right: 0;
+    transition: 0.2s;
 }
 
 
