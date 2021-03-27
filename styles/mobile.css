@@ -35,4 +35,9 @@
     .section-type2:before {
         width: 60%;
     }
+
+    .section__text {
+        font-size: 22px;
+        line-height: 30px;
+    }
 }
