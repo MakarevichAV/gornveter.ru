@@ -45,13 +45,13 @@ menuItemRef.forEach((el, ind) => {
 // Выплывающий блок пункта меню
 let dropDownContainer = document.querySelectorAll(".drop-down-container");
 dropDownContainer.forEach((elem, ind) => {
+    elem.addEventListener('click', () => {
+        elem.querySelector('.drop-down-block').classList.toggle('show-block');
+    });
     elem.addEventListener('mouseover', () => {
         elem.querySelector('.drop-down-block').classList.add('show-block');
     });
     elem.addEventListener('mouseout', () => {
         elem.querySelector('.drop-down-block').classList.remove('show-block');
-    });
-    elem.addEventListener('click', () => {
-        elem.querySelector('.drop-down-block').classList.toggle('show-block');
     });
 });

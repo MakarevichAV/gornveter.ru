@@ -20,7 +20,7 @@
         align-items: center;
         justify-content: space-between;
     }
-    .btn {
+    /* .btn {
         height: 44px;
         width: 100%;
         border-radius: 16px;
@@ -29,5 +29,8 @@
         font-weight: bold;
         cursor: pointer;
         padding: 0 20px;
+    } */
+    .about__card {
+        max-width: 100%;
     }
 }
