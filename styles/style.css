@@ -736,10 +736,11 @@ textarea.form__flex-el {
     margin-bottom: 30px;
 }
 
-.header__menu-mobile .header__menu-item {
+.header__menu-mobile .header__menu-item a, .header__menu-mobile .drop-down-container {
     margin: 0;
     padding: 10px 0;
     cursor: pointer;
+    display: block;
 }
 
 .header__menu-mobile .header__menu-item:hover {
