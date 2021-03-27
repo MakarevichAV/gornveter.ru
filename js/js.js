@@ -51,4 +51,7 @@ dropDownContainer.forEach((elem, ind) => {
     elem.addEventListener('mouseout', () => {
         elem.querySelector('.drop-down-block').classList.remove('show-block');
     });
+    elem.addEventListener('click', () => {
+        elem.querySelector('.drop-down-block').classList.toggle('show-block');
+    });
 });
