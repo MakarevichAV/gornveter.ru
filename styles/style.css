@@ -103,7 +103,7 @@ header {
     background: #EFEFEF;
     position: absolute;
     /* padding: 20px; */
-    width: 250px;
+    width: 280px;
 }
 
 .show-block {
@@ -119,6 +119,9 @@ header {
     display: block;
     margin-bottom: 10px;
     padding: 10px 20px;
+}
+.drop-down-block__item:nth-child(1) a {
+    margin-top: 12px !important;
 }
 
 .drop-down-block__item:hover {
