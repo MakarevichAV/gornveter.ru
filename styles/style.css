@@ -19,8 +19,12 @@ h2 {
     font-weight: bold;
     text-align: center;
     color: #3B5675;
+    margin: 0 auto;
     margin-bottom: 70px;
     padding: 0 20px;
+    position: relative;
+    z-index: 2;
+    max-width: 1240px;
 }
 
 h3 {
@@ -162,6 +166,7 @@ header {
     color: #FFCC7F;
     margin-bottom: 40px;
     position: relative;
+    z-index: 20;
 }
 
 .btns {
@@ -721,6 +726,32 @@ textarea.form__flex-el {
     width: 230px;
     margin: 0 auto;
     margin-bottom: 20px;
+}
+
+
+
+/* Стили для страницы "Цены" */
+.title {
+    height: 180px;
+    background: url(../images/title-bg.jpg) no-repeat top center / cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title h1 {
+    margin-bottom: 0;
+}
+.price-item h2 {
+    text-align: left;
+}
+
+.price-item__card {
+    background: white;
+    padding: 30px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-basis: 350px
 }
 
 

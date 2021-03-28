@@ -1,6 +1,6 @@
 // Выплывание header при скролле страницы
 let headerHeight = document.querySelector('header').clientHeight;
-let headerPicture = document.querySelector('.info').clientHeight;
+let headerPicture = document.querySelector('.info') ? document.querySelector('.info').clientHeight : false;
 let header = document.querySelector('.fixed-header');
 
 window.addEventListener('scroll', () => {
@@ -16,6 +16,7 @@ let menuButton = document.querySelectorAll('.header__menu-button');
 let mobileMenu = document.querySelector('.header__menu-mobile');
 menuButton.forEach((el, ind) => {
     el.addEventListener('click', () => {
+        console.log('привет');
         mobileMenu.classList.toggle('show-menu');
     });
 });
