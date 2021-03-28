@@ -743,15 +743,66 @@ textarea.form__flex-el {
 }
 .price-item h2 {
     text-align: left;
+    margin-bottom: 40px;
 }
-
+.price-item .flex-container {
+    flex-wrap: wrap;
+}
 .price-item__card {
     background: white;
     padding: 30px;
     display: flex;
     align-items: flex-start;
     flex-direction: row;
-    flex-basis: 350px
+    flex-basis: 100%;
+}
+.section-type1 .price-item__card {
+    background: #EFEFEF;
+}
+.price-item__image {
+    min-width: 200px;
+    height: 200px;
+    background: url(../images/services/instalation.jpg) no-repeat center center / cover;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
+.price-item__flex-el {
+    margin-right: 30px;
+}
+.price-item__image-description {
+    color: #3B5675;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
+.price-item__description {
+    flex-grow: 1;
+}
+.price-item__flex-container {
+    flex-wrap: wrap;
+    font-size: 26px;
+    color: #3D3D3D;
+}
+.price-item__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #C8C8C8;
+    margin-bottom: 8px;
+}
+.price-item__row--main {
+    font-weight: bold;
+}
+.price-item__flex-el {
+    margin-bottom: 20px;
+}
+.price-item__row--title {
+    color: #949494;
+    border: none;
+}
+.note {
+    font-size: 20px;
 }
 
 
