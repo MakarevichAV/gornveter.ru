@@ -10,6 +10,10 @@
     .header__menu>ul {
         font-size: 26px;
     }
+
+    .price-item__row {
+        font-size: 22px;
+    }
 }
 
 @media (max-width: 900px) {

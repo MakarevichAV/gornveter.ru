@@ -750,7 +750,7 @@ textarea.form__flex-el {
 }
 .price-item__card {
     background: white;
-    padding: 30px;
+    padding: 30px 10px;
     display: flex;
     align-items: flex-start;
     flex-direction: row;
@@ -762,13 +762,16 @@ textarea.form__flex-el {
 .price-item__image {
     min-width: 200px;
     height: 200px;
-    background: url(../images/services/instalation.jpg) no-repeat center center / cover;
+    background: no-repeat center center / cover;
     border-radius: 16px;
     margin-bottom: 20px;
 }
 
 .price-item__flex-el {
-    margin-right: 30px;
+    margin: 0 20px;
+    margin-bottom: 20px;
+    flex-grow: 1;
+    flex-basis: 350px;
 }
 .price-item__image-description {
     color: #3B5675;
@@ -786,16 +789,20 @@ textarea.form__flex-el {
 }
 .price-item__row {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
     border-bottom: 1px solid #C8C8C8;
     margin-bottom: 8px;
 }
+.price-item__row > span {
+    margin-right: 20px;
+}
+.price-item__row span:nth-child(2) {
+    text-align: right;
+    min-width: 130px;
+}
 .price-item__row--main {
     font-weight: bold;
-}
-.price-item__flex-el {
-    margin-bottom: 20px;
 }
 .price-item__row--title {
     color: #949494;
@@ -803,6 +810,8 @@ textarea.form__flex-el {
 }
 .note {
     font-size: 20px;
+    min-width: 75%;
+
 }
 
 
