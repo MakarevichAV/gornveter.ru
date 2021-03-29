@@ -265,10 +265,10 @@
             <div class="offer__brand" style="background-image:
                     url(../images/brands/ровен.png);"></div>
         </div>
-        <div class="feetback__flex-container">
+        <form class="feetback__flex-container">
             <input class="feetback__input btn" type="tel" maxlength="50" id="online_phone" name="phone" required="required" pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" placeholder="+7(___)___-__-__" />
             <button class="btn btn-orange feetback__btn">Проконсультироваться</button>
-        </div>
+        </form>
     </div>
 
     <footer class="footer">
@@ -343,6 +343,133 @@
             <p>Сайт разработан веб-студией <a href="https://vk.com/makarchik89">Makar&M</a> </p>
         </div>
     </footer>
+
+
+    <div class="popup">
+
+        <div class="popup__type2 popup__window">
+            <h4>
+                Оставьте заявку <br />
+                на вызов специалиста
+                <div class="crose"></div>
+            </h4>
+            <form action="#" method="POST">
+                <div class="form__item">
+                    <h5>Выберите вид работ:</h5>
+                    <select name="work-type" class="btn form__input">
+                        <option>Монтаж сплит-систем</option>
+                        <option>Закладка коммуникаций</option>
+                        <option>Чистка и обслуживание кондиционеров</option>
+                        <option>Ремонт кондиционеров</option>
+                    </select>
+                </div>
+                <div class="form__item">
+                    <h5>Адрес проведения работ:</h5>
+                    <input type="text" class="btn form__input" name="addres" />
+                </div>
+                <div class="form__item">
+                    <h5>Желаемая дата приезда специалиста</h5>
+                    <input type="date" class="btn form__input" name="addres" />
+                </div>
+                <div class="form__item">
+                    <h5>Ваше имя:</h5>
+                    <input type="text" class="btn form__input" name="name" />
+                </div>
+                <div class="form__item">
+                    <h5>Ваш телефон: *</h5>
+                    <input type="tel" class="btn form__input" maxlength="50" id="online_phone_2" name="phone" required="required" pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" placeholder="+7(___)___-__-__" />
+                </div>
+                <div class="form__item">
+                    <h5>Комментарий:</h5>
+                    <textarea name="comment" class="btn form__input"></textarea>
+                </div>
+                <div class="form__item">
+                    <button class="btn btn-green">Отправить заявку</button>
+                </div>
+                Нажимая на кнопку, вы даете согласие на обработку <a href="./documents/political.pdf" target="blank">персональных
+                    данных</a>
+                <h5 class="">Или позвоните нам</h5>
+                <div class="contact__numbers">
+                    <a href="tel:+79082548861">+7 908 254-88-61</a>
+                    <a href="tel:+79082548861">+7 908 254-88-61</a>
+                </div>
+            </form>
+        </div>
+
+        <div class="popup__type3 popup__window">
+            <h4>
+                Оставьте заявку <br />
+                на консультацию
+                <div class="crose"></div>
+            </h4>
+            <form action="#" method="POST">
+                <div class="form__item">
+                    <h5>Ваше имя:</h5>
+                    <input type="text" class="btn form__input" name="name" />
+                </div>
+                <div class="form__item">
+                    <h5>Ваш телефон: *</h5>
+                    <input type="tel" class="btn form__input" maxlength="50" id="online_phone_3" name="phone" required="required" pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" placeholder="+7(___)___-__-__" />
+                </div>
+                <div class="form__item">
+                    <h5>Комментарий / вопрос:</h5>
+                    <textarea name="comment" class="btn form__input"></textarea>
+                </div>
+                <div class="form__item">
+                    <button class="btn btn-green">Отправить заявку</button>
+                </div>
+                Нажимая на кнопку, вы даете согласие на обработку <a href="./documents/political.pdf" target="blank">персональных
+                    данных</a>
+                <h5 class="">Или позвоните нам</h5>
+                <div class="contact__numbers">
+                    <a href="tel:+79082548861">+7 908 254-88-61</a>
+                    <a href="tel:+79082548861">+7 908 254-88-61</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script type="text/javascript">
+        function setCursorPosition(pos, e) {
+            if (e.setSelectionRange) e.setSelectionRange(pos, pos);
+            else if (e.createTextRange) {
+                var range = e.createTextRange();
+                range.collapse(true);
+                range.moveEnd("character", pos);
+                range.moveStart("character", pos);
+                range.select()
+            }
+        }
+
+        function mask(e) {
+            var matrix = this.placeholder,
+                i = 0,
+                def = matrix.replace(/\D/g, ""),
+                val = this.value.replace(/\D/g, "");
+            def.length >= val.length && (val = def);
+            matrix = matrix.replace(/[_\d]/g, function(a) {
+                return val.charAt(i++) || "_"
+            });
+            this.value = matrix;
+            i = matrix.lastIndexOf(val.substr(-1));
+            i < matrix.length && matrix != this.placeholder ? i++ : i = matrix.indexOf("_");
+            setCursorPosition(i, this)
+        }
+        window.addEventListener("DOMContentLoaded", function() {
+            var input = document.querySelector("#online_phone");
+            input.addEventListener("input", mask, false);
+            setCursorPosition(3, input);
+
+            var input2 = document.querySelector("#online_phone_2");
+            input2.addEventListener("input", mask, false);
+            setCursorPosition(3, input2);
+
+            var input3 = document.querySelector("#online_phone_3");
+            input3.addEventListener("input", mask, false);
+            setCursorPosition(3, input3);
+        });
+    </script>
 
     <script src="../js/js.js"></script>
 </body>

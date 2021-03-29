@@ -59,3 +59,41 @@ dropDownContainer.forEach((elem, ind) => {
 
 // Всплытие Попапов
 let popup = document.querySelector('.popup');
+let btnPopup = document.querySelectorAll('.btn__popup');
+btnPopup.forEach((elem, ind) => {
+    elem.addEventListener('click', () => {
+        if (elem.classList.contains('btn__popup--1')) {
+            popup.style.display = 'block';
+            document.querySelector('.popup__type1').style.display = 'block';
+        }
+        if (elem.classList.contains('btn__popup--2')) {
+            popup.style.display = 'block';
+            document.querySelector('.popup__type2').style.display = 'block';
+        }
+        if (elem.classList.contains('btn__popup--3')) {
+            popup.style.display = 'block';
+            document.querySelector('.popup__type3').style.display = 'block';
+        }
+    });
+});
+
+// Закрытие popup
+let popupWindow = document.querySelectorAll('.popup__window');
+let croses = document.querySelectorAll('.crose');
+popup.addEventListener('click', (e) => {
+    if (e.target == popup) {
+        popup.style.display = 'none';
+        popupWindow.forEach((elem, ind) => {
+            elem.style.display = 'none';
+        });
+    } else {
+        croses.forEach((elem, ind) => {
+            if (e.target == elem) {
+                popup.style.display = 'none';
+                popupWindow.forEach((elem, ind) => {
+                    elem.style.display = 'none';
+                });
+            }
+        });
+    }
+});
