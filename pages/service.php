@@ -34,7 +34,7 @@
             </li>
             <li class="header__menu-item"><a href="../index.html#goods">Продукция</a></li>
             <li class="header__menu-item"><a href="../index.html#about">О нас</a></li>
-            <li class="header__menu-item">Цены</li>
+            <li class="header__menu-item"><a href="../pages/price.html">Цены</a></li>
             <li class="header__menu-item"><a href="../index.html#contact">Контакты</a></li>
         </ul>
         <div class="info-footer__contact contact">
@@ -91,7 +91,7 @@
                     </li>
                     <li class="header__menu-item"><a href="../index.html#goods">Продукция</a></li>
                     <li class="header__menu-item"><a href="../index.html#about">О нас</a></li>
-                    <li class="header__menu-item">Цены</li>
+                    <li class="header__menu-item"><a href="../pages/price.html">Цены</a></li>
                     <li class="header__menu-item"><a href="../index.html#contact">Контакты</a></li>
                 </ul>
             </div>
@@ -139,7 +139,7 @@
                     </li>
                     <li class="header__menu-item"><a href="../index.html#goods">Продукция</a></li>
                     <li class="header__menu-item"><a href="../index.html#about">О нас</a></li>
-                    <li class="header__menu-item">Цены</li>
+                    <li class="header__menu-item"><a href="../pages/price.html">Цены</a></li>
                     <li class="header__menu-item"><a href="../index.html#contact">Контакты</a></li>
                 </ul>
             </div>

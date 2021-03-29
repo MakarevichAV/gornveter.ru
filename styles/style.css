@@ -823,12 +823,12 @@ textarea.form__flex-el {
 
 /* Для адаптива */
 .header__menu-mobile {
-    /* display: none; */
     position: fixed;
     right: -100%;
     top: 100px;
     background: white;
-    min-height: 100vh;
+    height: calc(100vh - 100px);
+    overflow: auto;
     width: 100%;
     z-index: 30;
     border-top: 1px solid #3b5675;
