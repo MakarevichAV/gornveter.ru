@@ -52,7 +52,7 @@
                 </div>
             </div>
         </div>
-        <button class="btn btn-orange info__btn">КОНСУЛЬТАЦИЯ</button>
+        <button class="btn btn-orange info__btn btn__popup btn__popup--3">КОНСУЛЬТАЦИЯ</button>
     </div>
 
     <!-- Header который выплывает при прокрутке  НАЧАЛО -->
@@ -186,7 +186,7 @@
                         reiciendis voluptatibus maiores alias consequatur
                         aut perferendis doloribus asperiores repellat.
                     </p>
-                    <button class="btn btn-green">Вызвать специалиста</button>
+                    <button class="btn btn-green btn__popup btn__popup--2">Вызвать специалиста</button>
                 </div>
             </div>
         </div>

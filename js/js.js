@@ -56,3 +56,6 @@ dropDownContainer.forEach((elem, ind) => {
         elem.querySelector('.drop-down-block').classList.remove('show-block');
     });
 });
+
+// Всплытие Попапов
+let popup = document.querySelector('.popup');

@@ -928,11 +928,8 @@ textarea.form__flex-el {
 
 
 /* Стили для popup */
-/* body {
-    overflow: hidden;
-} */
+
 .popup {
-    overflow: auto;
     position: fixed;
     z-index: 50;
     top: 0;
@@ -941,14 +938,9 @@ textarea.form__flex-el {
     left: 0;
     min-height: 100vh;
     background-color: rgba(202, 202, 202, 0.95);
-    /* padding: 20px; */
-    display: flex;
-    align-items: stretch;
-    justify-content: center;
-}
-
-.popup__wrap {
     padding: 20px;
+    overflow: auto;
+    display: none;
 }
 
 .popup h4 {
@@ -957,12 +949,13 @@ textarea.form__flex-el {
     background-color: #3B5675;
     border-radius: 16px 16px 0 0;
     color: #ffffff;
+    position: relative;
 }
 
 .popup h5 {
     font-size: 18px;
     color: #3B5675;
-    margin-bottom: 8px;
+    margin: 8px 0;
 }
 
 .popup form {
@@ -986,10 +979,67 @@ textarea.form__flex-el {
 
 .popup__window {
     max-width: 450px;
-    flex-grow: 1;
     background-color: white;
     border-radius: 16px;
-    
+    margin: 0 auto;
+    min-height: calc(100% - 40px);
+}
+.popup__window form > h5 {
+    font-size: 22px;
+    text-align: center;
+}
+.popup__window .contact__numbers a {
+    color: #FFA316;
+    font-size: 20px;
+    text-align: center;
 }
 
-.popup__type1 {}
+.popup__type1 {
+    display: none;
+}
+
+.popup__type2 {
+    display: none;
+}
+
+.popup__type3 {
+    display: none;
+}
+
+.crose {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.crose:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    height: 8px;
+    background-color: #FFA316;
+    transform: rotate(45deg);
+}
+
+.crose:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    height: 8px;
+    background-color: #FFA316;
+    transform: rotate(-45deg);
+}
