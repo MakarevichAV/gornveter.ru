@@ -124,6 +124,7 @@ header {
     margin-bottom: 10px;
     padding: 10px 20px;
 }
+
 .drop-down-block__item:nth-child(1) a {
     margin-top: 12px !important;
 }
@@ -739,16 +740,20 @@ textarea.form__flex-el {
     align-items: center;
     justify-content: center;
 }
+
 .title h1 {
     margin-bottom: 0;
 }
+
 .price-item h2 {
     text-align: left;
     margin-bottom: 40px;
 }
+
 .price-item .flex-container {
     flex-wrap: wrap;
 }
+
 .price-item__card {
     background: white;
     padding: 30px 10px;
@@ -757,9 +762,11 @@ textarea.form__flex-el {
     flex-direction: row;
     flex-basis: 100%;
 }
+
 .section-type1 .price-item__card {
     background: #EFEFEF;
 }
+
 .price-item__image {
     min-width: 200px;
     height: 200px;
@@ -773,21 +780,25 @@ textarea.form__flex-el {
     margin-bottom: 20px;
     flex-grow: 1;
 }
+
 .price-item__image-description {
     color: #3B5675;
     font-size: 26px;
     font-weight: bold;
     text-align: center;
 }
+
 .price-item__description {
     flex-grow: 1;
     flex-basis: 460px;
 }
+
 .price-item__flex-container {
     flex-wrap: wrap;
     font-size: 26px;
     color: #3D3D3D;
 }
+
 .price-item__row {
     display: flex;
     align-items: flex-end;
@@ -795,20 +806,25 @@ textarea.form__flex-el {
     border-bottom: 1px solid #C8C8C8;
     margin-bottom: 8px;
 }
-.price-item__row > span {
+
+.price-item__row>span {
     margin-right: 20px;
 }
+
 .price-item__row span:nth-child(2) {
     text-align: right;
     min-width: 130px;
 }
+
 .price-item__row--main {
     font-weight: bold;
 }
+
 .price-item__row--title {
     color: #949494;
     border: none;
 }
+
 .note {
     font-size: 20px;
     min-width: 75%;
@@ -818,7 +834,7 @@ textarea.form__flex-el {
 /* Стили для страницы услуги */
 .price-item__description-text {
     margin-bottom: 20px;
-} 
+}
 
 
 /* Для адаптива */
@@ -909,3 +925,71 @@ textarea.form__flex-el {
     top: 0;
     transition: 0.5s;
 }
+
+
+/* Стили для popup */
+/* body {
+    overflow: hidden;
+} */
+.popup {
+    overflow: auto;
+    position: fixed;
+    z-index: 50;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    min-height: 100vh;
+    background-color: rgba(202, 202, 202, 0.95);
+    /* padding: 20px; */
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.popup__wrap {
+    padding: 20px;
+}
+
+.popup h4 {
+    text-align: center;
+    padding: 20px;
+    background-color: #3B5675;
+    border-radius: 16px 16px 0 0;
+    color: #ffffff;
+}
+
+.popup h5 {
+    font-size: 18px;
+    color: #3B5675;
+    margin-bottom: 8px;
+}
+
+.popup form {
+    padding: 20px;
+}
+
+.form__input {
+    background-color: white;
+    border: 1px solid #C8C8C8;
+    color: #3B5675;
+    cursor: auto;
+}
+
+.form__item {
+    margin-bottom: 15px;
+}
+
+.form__item textarea {
+    height: 80px;
+}
+
+.popup__window {
+    max-width: 450px;
+    flex-grow: 1;
+    background-color: white;
+    border-radius: 16px;
+    
+}
+
+.popup__type1 {}
