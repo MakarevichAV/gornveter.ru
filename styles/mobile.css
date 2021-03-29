@@ -14,6 +14,10 @@
     .price-item__row {
         font-size: 22px;
     }
+
+    .price-item__description-text {
+        font-size: 22px;
+    } 
 }
 
 @media (max-width: 900px) {

@@ -107,6 +107,7 @@ header {
     background: #EFEFEF;
     position: absolute;
     width: 280px;
+    box-shadow: 2px 3px 9px rgb(0 0 0 / 25%)
 }
 
 .show-block {
@@ -813,6 +814,11 @@ textarea.form__flex-el {
     min-width: 75%;
 
 }
+
+/* Стили для страницы услуги */
+.price-item__description-text {
+    margin-bottom: 20px;
+} 
 
 
 /* Для адаптива */
