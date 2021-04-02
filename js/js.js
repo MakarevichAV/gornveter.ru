@@ -46,7 +46,7 @@ menuItemRef.forEach((el, ind) => {
 // Выплывающий блок пункта меню
 let dropDownContainer = document.querySelectorAll(".drop-down-container");
 dropDownContainer.forEach((elem, ind) => {
-    elem.addEventListener('click', () => {
+    elem.addEventListener('touchstart', () => {
         elem.querySelector('.drop-down-block').classList.toggle('show-block');
     });
     elem.addEventListener('mouseover', () => {
