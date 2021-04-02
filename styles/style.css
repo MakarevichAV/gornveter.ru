@@ -68,8 +68,6 @@ header {
     height: 80px;
 }
 
-.header__menu {}
-
 .header__menu>ul {
     display: flex;
     align-items: center;
@@ -231,8 +229,6 @@ header {
     margin: 0 20px;
 }
 
-.contact {}
-
 .contact__item {
     display: flex;
     align-items: center;
@@ -268,8 +264,6 @@ header {
     color: white;
     font-weight: bold;
 }
-
-.contact__email {}
 
 .contact__email a {
     color: white;
@@ -307,8 +301,6 @@ div {
     height: 450px;
     background: url(../images/bg-left.png) no-repeat top left / contain;
 }
-
-.services {}
 
 .flex-container {
     display: flex;
@@ -368,8 +360,6 @@ div {
     background: #EFF6FB;
 }
 
-.goods {}
-
 .goods__flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -413,8 +403,6 @@ div {
     color: #FFA316;
     margin-bottom: 14px;
 }
-
-.about {}
 
 .section__text {
     font-size: 32px;
@@ -469,8 +457,6 @@ div {
     margin: 0 20px;
     margin-bottom: 14px;
 }
-
-.offer {}
 
 .offer__card {
     background: white;
@@ -541,8 +527,6 @@ div {
     margin-bottom: 14px;
 }
 
-.reviews {}
-
 .reviews__item {
     display: flex;
     align-items: flex-start;
@@ -566,8 +550,6 @@ div {
     margin: 0 20px;
 }
 
-.reviews__name {}
-
 .reviews__date {
     font-size: 22px;
     color: #079F71;
@@ -587,8 +569,6 @@ div {
     margin: 0 auto;
     padding: 20px;
 }
-
-.form {}
 
 .form__head {
     padding: 0 20px;
@@ -637,8 +617,6 @@ textarea.form__flex-el {
     min-width: 300px;
 }
 
-.section__contact {}
-
 .section__img-phone {
     background: url(../images/icon/phone2.png) no-repeat center center / contain;
 }
@@ -654,8 +632,6 @@ textarea.form__flex-el {
 .section__email a {
     color: #FFA316;
 }
-
-.footer {}
 
 .footer__top {
     background: #3B5675;
