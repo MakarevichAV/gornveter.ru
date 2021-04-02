@@ -46,14 +46,18 @@ menuItemRef.forEach((el, ind) => {
 // Выплывающий блок пункта меню
 let dropDownContainer = document.querySelectorAll(".drop-down-container");
 dropDownContainer.forEach((elem, ind) => {
-    elem.addEventListener('touchend', () => {
-        elem.querySelector('.drop-down-block').classList.toggle('show-block');
-    });
     elem.addEventListener('mouseover', () => {
         elem.querySelector('.drop-down-block').classList.add('show-block');
     });
     elem.addEventListener('mouseout', () => {
         elem.querySelector('.drop-down-block').classList.remove('show-block');
+    });
+    elem.addEventListener('touchend', (e) => {
+        if (e.hasAttribute('href')) {
+            e.preventDefault();
+            document.location.href = e.getAttribute('href');
+        }
+        elem.querySelector('.drop-down-block').classList.toggle('show-block');
     });
 });
 
