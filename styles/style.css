@@ -1043,3 +1043,29 @@ textarea.form__flex-el {
     background-color: #FFA316;
     transform: rotate(-45deg);
 }
+
+
+.popup__visible {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.window {
+    max-width: 600px;
+    background: white;
+    padding: 0;
+    border-radius: 16px;
+}
+
+.window input {
+    margin-bottom: 20px;
+    border: 1px solid #BABABA;
+    text-align: center;
+    color: #3b5675;
+}
+
+.window form {
+    background: white;
+    border-radius: 16px;
+}
