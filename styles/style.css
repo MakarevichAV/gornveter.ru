@@ -458,6 +458,12 @@ div {
     margin-bottom: 14px;
 }
 
+.about .section__text {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
 .offer__card {
     background: white;
     padding: 30px;
@@ -530,7 +536,7 @@ div {
 .reviews__item {
     display: flex;
     align-items: flex-start;
-    max-width: 1240px;
+    max-width: 900px;
     margin: 0 auto;
     margin-bottom: 60px;
 }
