@@ -24,20 +24,14 @@ productNav.forEach((item, ind) => {
 let select = document.querySelector('.select');
 let modelItem = document.querySelectorAll('.select option');
 let productId = document.querySelector('select').getAttribute('id');
-select.addEventListener('change', (e) => {
-    console.log(e.options[sel.selectedIndex].value);
+select.addEventListener('change', () => {
+    let modelNumber = select.options[select.options.selectedIndex].value;
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', `http://gornveter.ru/pages/product.php?product_id=${productId}&model_number=${modelNumber}`, false);
+    xhr.send();
+    if (xhr.status != 200) {
+        alert(xhr.status + ': ' + xhr.statusText); // пример вывода: 404: Not Found
+    } else {
+        // alert(xhr.responseText); // responseText -- текст ответа.
+    }
 });
-// modelItem.forEach((val, ind) => {
-//     val.addEventListener('change', () => {
-//         console.log('lll');
-        
-//         // var xhr = new XMLHttpRequest();
-//         // xhr.open('GET', `http://gornveter.ru/pages/product.php?product_id=${productId}&model_number=${modelNumber}`, false);
-//         // xhr.send();
-//         // if (xhr.status != 200) {
-//         //     alert(xhr.status + ': ' + xhr.statusText); // пример вывода: 404: Not Found
-//         // } else {
-//         //     alert(xhr.responseText); // responseText -- текст ответа.
-//         // }
-//     });
-// });
