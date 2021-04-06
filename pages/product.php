@@ -42,8 +42,8 @@
             <div class="contact__item">
                 <div class="contact__picture img-phone section__img-phone"></div>
                 <div class="contact__numbers section__numbers">
-                    <a href="tel:+79082548861">+7 908 254-88-61</a>
-                    <a href="tel:+79082548861">+7 908 254-88-61</a>
+                    <a href="tel:+79128878469">+7 912 887-84-69</a>
+                    <a href="tel:+79526453255">+7 952 645-32-55</a>
                 </div>
             </div>
             <div class="contact__item">
@@ -443,8 +443,8 @@
                     <div class="contact__item">
                         <div class="contact__picture img-phone"></div>
                         <div class="contact__numbers">
-                            <a href="tel:+79082548861">+7 908 254-88-61</a>
-                            <a href="tel:+79082548861">+7 908 254-88-61</a>
+                            <a href="tel:+79128878469">+7 912 887-84-69</a>
+                            <a href="tel:+79526453255">+7 952 645-32-55</a>
                         </div>
                     </div>
                     <div class="contact__item">
