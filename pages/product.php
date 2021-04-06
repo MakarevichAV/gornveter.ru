@@ -173,8 +173,8 @@
                     <option value="12">Модель {model_number}</option>
                 </select>
                 <p class="price">25 000 ₽</p>
-                <button class="btn btn-orange">Проконсультироваться</button>
-                <button class="btn btn-blue">Расчитать стоимость</button>
+                <button class="btn btn-orange btn__popup btn__popup--3">Проконсультироваться</button>
+                <button class="btn btn-blue btn__popup btn__popup--1">Расчитать стоимость</button>
             </div>
         </div>
     </div>
@@ -462,8 +462,137 @@
         </div>
     </footer>
 
+    <div class="popup">
+        <div class="popup__type1 popup__window">
+            <h4>
+                Оставьте заявку <br />
+                Мы перезвоним Вам и сориентируем по стоимости
+                <div class="crose"></div>
+            </h4>
+            <form action="#" method="POST">
+                <div class="form__item">
+                    <h5>Выберите вид работ:</h5>
+                    <select name="work-type" class="btn form__input">
+                        <option>Монтаж сплит-систем</option>
+                        <option>Закладка коммуникаций</option>
+                        <option>Чистка и обслуживание кондиционеров</option>
+                        <option>Ремонт кондиционеров</option>
+                    </select>
+                </div>
+                <div class="form__item">
+                    <h5>Адрес проведения работ:</h5>
+                    <input type="text" class="btn form__input" name="addres" />
+                </div>
+                <div class="form__item">
+                    <h5>Ваше имя:</h5>
+                    <input type="text" class="btn form__input" name="name" />
+                </div>
+                <div class="form__item">
+                    <h5>Ваш телефон: *</h5>
+                    <input type="tel" class="btn form__input" maxlength="50" id="online_phone_3" name="phone" required="required" pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" placeholder="+7(___)___-__-__" />
+                </div>
+                <div class="form__item">
+                    <h5>Комментарий:</h5>
+                    <textarea name="comment" class="btn form__input"></textarea>
+                </div>
+                <div class="form__item">
+                    <button class="btn btn-green">Отправить заявку</button>
+                </div>
+                Нажимая на кнопку, вы даете согласие на обработку <a href="./documents/political.pdf" target="blank">персональных
+                    данных</a>
+                <h5 class="">Или позвоните нам</h5>
+                <div class="contact__numbers">
+                    <a href="tel:+79128878469">+7 912 887-84-69</a>
+                    <a href="tel:+79526453255">+7 952 645-32-55</a>
+                </div>
+            </form>
+        </div>
+
+        <div class="popup__type2 popup__window">
+            <h4>
+                Оставьте заявку <br />
+                на вызов специалиста
+                <div class="crose"></div>
+            </h4>
+            <form action="#" method="POST">
+                <div class="form__item">
+                    <h5>Выберите вид работ:</h5>
+                    <select name="work-type" class="btn form__input">
+                        <option>Монтаж сплит-систем</option>
+                        <option>Закладка коммуникаций</option>
+                        <option>Чистка и обслуживание кондиционеров</option>
+                        <option>Ремонт кондиционеров</option>
+                    </select>
+                </div>
+                <div class="form__item">
+                    <h5>Адрес проведения работ:</h5>
+                    <input type="text" class="btn form__input" name="addres" />
+                </div>
+                <div class="form__item">
+                    <h5>Желаемая дата приезда специалиста</h5>
+                    <input type="date" class="btn form__input" name="addres" />
+                </div>
+                <div class="form__item">
+                    <h5>Ваше имя:</h5>
+                    <input type="text" class="btn form__input" name="name" />
+                </div>
+                <div class="form__item">
+                    <h5>Ваш телефон: *</h5>
+                    <input type="tel" class="btn form__input" maxlength="50" id="online_phone_4" name="phone" required="required" pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" placeholder="+7(___)___-__-__" />
+                </div>
+                <div class="form__item">
+                    <h5>Комментарий:</h5>
+                    <textarea name="comment" class="btn form__input"></textarea>
+                </div>
+                <div class="form__item">
+                    <button class="btn btn-green">Отправить заявку</button>
+                </div>
+                Нажимая на кнопку, вы даете согласие на обработку <a href="./documents/political.pdf" target="blank">персональных
+                    данных</a>
+                <h5 class="">Или позвоните нам</h5>
+                <div class="contact__numbers">
+                    <a href="tel:+79128878469">+7 912 887-84-69</a>
+                    <a href="tel:+79526453255">+7 952 645-32-55</a>
+                </div>
+            </form>
+        </div>
+
+        <div class="popup__type3 popup__window">
+            <h4>
+                Оставьте заявку <br />
+                на консультацию
+                <div class="crose"></div>
+            </h4>
+            <form action="#" method="POST">
+                <div class="form__item">
+                    <h5>Ваше имя:</h5>
+                    <input type="text" class="btn form__input" name="name" />
+                </div>
+                <div class="form__item">
+                    <h5>Ваш телефон: *</h5>
+                    <input type="tel" class="btn form__input" maxlength="50" id="online_phone_5" name="phone" required="required" pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" placeholder="+7(___)___-__-__" />
+                </div>
+                <div class="form__item">
+                    <h5>Комментарий / вопрос:</h5>
+                    <textarea name="comment" class="btn form__input"></textarea>
+                </div>
+                <div class="form__item">
+                    <button class="btn btn-green">Отправить заявку</button>
+                </div>
+                Нажимая на кнопку, вы даете согласие на обработку <a href="./documents/political.pdf" target="blank">персональных
+                    данных</a>
+                <h5 class="">Или позвоните нам</h5>
+                <div class="contact__numbers">
+                    <a href="tel:+79128878469">+7 912 887-84-69</a>
+                    <a href="tel:+79526453255">+7 952 645-32-55</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
     <script src="../js/product.js"></script>
     <script src="../js/js.js"></script>
+    <script src="../js/closePopup.js"></script>
 
 </body>
 
