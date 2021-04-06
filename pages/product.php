@@ -181,10 +181,10 @@
     <div class="section section-type2">
         <div class="product-info">
             <ul class="product-info__nav">
-                <li>
+                <li class="product-info__nav-item product-info__nav-item--active" data-info="description">
                     Описание
                 </li>
-                <li>
+                <li class="product-info__nav-item" data-info="params">
                     Характеристики
                 </li>
             </ul>
