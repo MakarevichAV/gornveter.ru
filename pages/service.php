@@ -472,6 +472,7 @@
     </script>
 
     <script src="../js/js.js"></script>
+    <script src="../js/closePopup.js"></script>
 </body>
 
 </html>

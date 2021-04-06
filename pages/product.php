@@ -164,13 +164,13 @@
             <div class="product-card__picture"></div>
             <div class="product-card__info">
                 <h4>Система {system_name}</h4>
-                <select name="model" id="model" class="btn select">
-                    <option value="model_number">Модель {model_number}</option>
-                    <option value="model_number">Модель {model_number}</option>
-                    <option value="model_number">Модель {model_number}</option>
-                    <option value="model_number">Модель {model_number}</option>
-                    <option value="model_number">Модель {model_number}</option>
-                    <option value="model_number">Модель {model_number}</option>
+                <select name="model" id="product_id" class="btn select">
+                    <option value="7">Модель {model_number}</option>
+                    <option value="8">Модель {model_number}</option>
+                    <option value="9">Модель {model_number}</option>
+                    <option value="10">Модель {model_number}</option>
+                    <option value="11">Модель {model_number}</option>
+                    <option value="12">Модель {model_number}</option>
                 </select>
                 <p class="price">25 000 ₽</p>
                 <button class="btn btn-orange">Проконсультироваться</button>
