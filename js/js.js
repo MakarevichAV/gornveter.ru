@@ -101,7 +101,3 @@ popup.addEventListener('click', (e) => {
         });
     }
 });
-
-
-// Переключение вкладок Описание и Характеристики
-let productNav = document.querySelectorAll('.product-info__nav-item');

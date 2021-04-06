@@ -189,7 +189,7 @@
                 </li>
             </ul>
             <div class="product-info__content">
-                <div id="description">
+                <div class="product-info__content-item" id="description">
                     С новой сплит-системой Perfecto Вы сможете не только охлаждать помещение летом, 
                     но и поддерживать необходимую температуру в загородном доме без центрального отопления зимой. 
                     Благодаря функции «Защита дома от замерзания» кондиционер будет поддерживать температуру воздуха +8°С, 
@@ -210,7 +210,7 @@
                     • Таймер 24 часа<br/>
                     • Вывод дренажа в 2 стороны
                 </div>
-                <div id="params">
+                <div id="params" class="product-info__content-item unvisible">
                     <h4>Основные</h4>
 
                     <h4>Потребительские</h4>
@@ -230,7 +230,7 @@
                     <h4>Управление</h4>
 
                     <h4>Индикация</h4>
-                    
+
                     <h4>Дополнительные</h4>
 
                 </div>
@@ -315,7 +315,8 @@
         </div>
     </footer>
 
-    <script src="./js/js.js"></script>
+    <script src="../js/product.js"></script>
+    <script src="../js/js.js"></script>
 
 </body>
 
