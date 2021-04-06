@@ -190,49 +190,196 @@
             </ul>
             <div class="product-info__content">
                 <div class="product-info__content-item" id="description">
-                    С новой сплит-системой Perfecto Вы сможете не только охлаждать помещение летом, 
-                    но и поддерживать необходимую температуру в загородном доме без центрального отопления зимой. 
-                    Благодаря функции «Защита дома от замерзания» кондиционер будет поддерживать температуру воздуха +8°С, 
-                    не позволяя заморозить помещение и потребляя минимум электроэнергии. 
-                    Безупречное качество и надежность работы кондиционера подтверждаются расширенной гарантией 5 лет. <br/>
-                    <br/>• Класс энергоэффективности "A"<br/>
-                    • 4 режима работы: охлаждение / обогрев / вентиляция / осушение<br/>
-                    • Режимы "Auto", "Sleep" и "Turbo"<br/>
-                    • Гарантия 5 лет<br/>
-                    • Защита дома от замерзания: функция обогрева +8°C.<br/>
-                    • Защита от перепадов напряжения 175~264 В.<br/>
-                    • Автоматическое качание горизонтальных жалюзи<br/>
-                    • Самодиагностика<br/>
-                    • Режим оттаивания "Defrost"<br/>
-                    • Режим предварительного нагрева "Hot start"<br/>
-                    • Авторестарт<br/>
-                    • Самодиагностика<br/>
-                    • Таймер 24 часа<br/>
+                    С новой сплит-системой Perfecto Вы сможете не только охлаждать помещение летом,
+                    но и поддерживать необходимую температуру в загородном доме без центрального отопления зимой.
+                    Благодаря функции «Защита дома от замерзания» кондиционер будет поддерживать температуру воздуха +8°С,
+                    не позволяя заморозить помещение и потребляя минимум электроэнергии.
+                    Безупречное качество и надежность работы кондиционера подтверждаются расширенной гарантией 5 лет. <br />
+                    <br />• Класс энергоэффективности "A"<br />
+                    • 4 режима работы: охлаждение / обогрев / вентиляция / осушение<br />
+                    • Режимы "Auto", "Sleep" и "Turbo"<br />
+                    • Гарантия 5 лет<br />
+                    • Защита дома от замерзания: функция обогрева +8°C.<br />
+                    • Защита от перепадов напряжения 175~264 В.<br />
+                    • Автоматическое качание горизонтальных жалюзи<br />
+                    • Самодиагностика<br />
+                    • Режим оттаивания "Defrost"<br />
+                    • Режим предварительного нагрева "Hot start"<br />
+                    • Авторестарт<br />
+                    • Самодиагностика<br />
+                    • Таймер 24 часа<br />
                     • Вывод дренажа в 2 стороны
                 </div>
                 <div id="params" class="product-info__content-item unvisible">
-                    <h4>Основные</h4>
-
-                    <h4>Потребительские</h4>
-
-                    <h4>Режимы</h4>
-
-                    <h4>Функции</h4>
-
-                    <h4>Защита и безопасность</h4>
-
-                    <h4>Технологии</h4>
-
-                    <h4>Монтажные</h4>
-
-                    <h4>Комплектность</h4>
-
-                    <h4>Управление</h4>
-
-                    <h4>Индикация</h4>
-
-                    <h4>Дополнительные</h4>
-
+                    <div class="params__item">
+                        <h4>Основные</h4>
+                        <p class="parametr">
+                            <span class="parametr__name">Название параметра</span>
+                            <span class="parametr__value">Значение</span>
+                        </p>
+                        <p class="parametr">
+                            <span class="parametr__name">Название параметра</span>
+                            <span class="parametr__value">Значение</span>
+                        </p>
+                        <p class="parametr">
+                            <span class="parametr__name">Название параметра</span>
+                            <span class="parametr__value">Значение</span>
+                        </p>
+                        <p class="parametr">
+                            <span class="parametr__name">Длинное название параметра и еще текст</span>
+                            <span class="parametr__value">Значение не менее длинное</span>
+                        </p>
+                    </div>
+                    <div class="params__item">
+                        <h4>Потребительские</h4>
+                        <p class="parametr">
+                            <span class="parametr__name">Название параметра</span>
+                            <span class="parametr__value">Значение</span>
+                        </p>
+                        <p class="parametr">
+                            <span class="parametr__name">Название параметра</span>
+                            <span class="parametr__value">Значение</span>
+                        </p>
+                        <p class="parametr">
+                            <span class="parametr__name">Название параметра</span>
+                            <span class="parametr__value">Значение</span>
+                        </p>
+                    </div>
+                    <div class="params__item">
+                        <h4>Режимы</h4>
+                        <p class="parametr">
+                            <span class="parametr__name">Название параметра</span>
+                            <span class="parametr__value">Значение</span>
+                        </p>
+                        <p class="parametr">
+                            <span class="parametr__name">Название параметра</span>
+                            <span class="parametr__value">Значение</span>
+                        </p>
+                        <p class="parametr">
+                            <span class="parametr__name">Название параметра</span>
+                            <span class="parametr__value">Значение</span>
+                        </p>
+                    </div>
+                    <div class="params__item">
+                        <h4>Функции</h4>
+                        <p class="parametr">
+                            <span class="parametr__name">Название параметра</span>
+                            <span class="parametr__value">Значение</span>
+                        </p>
+                        <p class="parametr">
+                            <span class="parametr__name">Название параметра</span>
+                            <span class="parametr__value">Значение</span>
+                        </p>
+                        <p class="parametr">
+                            <span class="parametr__name">Название параметра</span>
+                            <span class="parametr__value">Значение</span>
+                        </p>
+                    </div>
+                    <div class="params__item">
+                        <h4>Защита и безопасность</h4>
+                        <p class="parametr">
+                            <span class="parametr__name">Название параметра</span>
+                            <span class="parametr__value">Значение</span>
+                        </p>
+                        <p class="parametr">
+                            <span class="parametr__name">Название параметра</span>
+                            <span class="parametr__value">Значение</span>
+                        </p>
+                        <p class="parametr">
+                            <span class="parametr__name">Название параметра</span>
+                            <span class="parametr__value">Значение</span>
+                        </p>
+                    </div>
+                    <div class="params__item">
+                        <h4>Технологии</h4>
+                        <p class="parametr">
+                            <span class="parametr__name">Название параметра</span>
+                            <span class="parametr__value">Значение</span>
+                        </p>
+                        <p class="parametr">
+                            <span class="parametr__name">Название параметра</span>
+                            <span class="parametr__value">Значение</span>
+                        </p>
+                        <p class="parametr">
+                            <span class="parametr__name">Название параметра</span>
+                            <span class="parametr__value">Значение</span>
+                        </p>
+                    </div>
+                    <div class="params__item">
+                        <h4>Монтажные</h4>
+                        <p class="parametr">
+                            <span class="parametr__name">Название параметра</span>
+                            <span class="parametr__value">Значение</span>
+                        </p>
+                        <p class="parametr">
+                            <span class="parametr__name">Название параметра</span>
+                            <span class="parametr__value">Значение</span>
+                        </p>
+                        <p class="parametr">
+                            <span class="parametr__name">Название параметра</span>
+                            <span class="parametr__value">Значение</span>
+                        </p>
+                    </div>
+                    <div class="params__item">
+                        <h4>Комплектность</h4>
+                        <p class="parametr">
+                            <span class="parametr__name">Название параметра</span>
+                            <span class="parametr__value">Значение</span>
+                        </p>
+                        <p class="parametr">
+                            <span class="parametr__name">Название параметра</span>
+                            <span class="parametr__value">Значение</span>
+                        </p>
+                        <p class="parametr">
+                            <span class="parametr__name">Название параметра</span>
+                            <span class="parametr__value">Значение</span>
+                        </p>
+                    </div>
+                    <div class="params__item">
+                        <h4>Управление</h4>
+                        <p class="parametr">
+                            <span class="parametr__name">Название параметра</span>
+                            <span class="parametr__value">Значение</span>
+                        </p>
+                        <p class="parametr">
+                            <span class="parametr__name">Название параметра</span>
+                            <span class="parametr__value">Значение</span>
+                        </p>
+                        <p class="parametr">
+                            <span class="parametr__name">Название параметра</span>
+                            <span class="parametr__value">Значение</span>
+                        </p>
+                    </div>
+                    <div class="params__item">
+                        <h4>Индикация</h4>
+                        <p class="parametr">
+                            <span class="parametr__name">Название параметра</span>
+                            <span class="parametr__value">Значение</span>
+                        </p>
+                        <p class="parametr">
+                            <span class="parametr__name">Название параметра</span>
+                            <span class="parametr__value">Значение</span>
+                        </p>
+                        <p class="parametr">
+                            <span class="parametr__name">Название параметра</span>
+                            <span class="parametr__value">Значение</span>
+                        </p>
+                    </div>
+                    <div class="params__item">
+                        <h4>Дополнительные</h4>
+                        <p class="parametr">
+                            <span class="parametr__name">Название параметра</span>
+                            <span class="parametr__value">Значение</span>
+                        </p>
+                        <p class="parametr">
+                            <span class="parametr__name">Название параметра</span>
+                            <span class="parametr__value">Значение</span>
+                        </p>
+                        <p class="parametr">
+                            <span class="parametr__name">Название параметра</span>
+                            <span class="parametr__value">Значение</span>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
