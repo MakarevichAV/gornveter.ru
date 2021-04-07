@@ -514,6 +514,7 @@ div {
     max-width: 1240px;
     margin: 0 auto;
     flex-wrap: wrap;
+    position: relative;
 }
 
 .feetback__input {
