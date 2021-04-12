@@ -6,6 +6,7 @@
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     outline: none;
+    list-style: none;
 }
 
 input,
@@ -23,7 +24,7 @@ textarea {
 }
 
 h2 {
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     color: white;
 }
 
@@ -324,4 +325,28 @@ h2 {
             }
         }
     }
+}
+
+.parametr {
+    display: flex;
+    margin-bottom: 10px;
+}
+.parametr p, .parametr input {
+    width: 50%;
+}
+
+.menu {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.menu li {
+    color: white;
+    margin-right: 20px;
+}
+
+.menu li a {
+    color: white;
+    background: #7ab429;
+    padding: 10px;
 }

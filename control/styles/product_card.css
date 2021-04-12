@@ -7,6 +7,7 @@
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
   outline: none;
+  list-style: none;
 }
 
 input,
@@ -24,7 +25,7 @@ textarea {
 }
 
 h2 {
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   color: white;
 }
 
@@ -397,5 +398,34 @@ h2 {
   text-align: center;
   padding: 7px;
   border: solid 1px white;
+}
+
+.parametr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.parametr p, .parametr input {
+  width: 50%;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.menu li {
+  color: white;
+  margin-right: 20px;
+}
+
+.menu li a {
+  color: white;
+  background: #7ab429;
+  padding: 10px;
 }
 /*# sourceMappingURL=product_card.css.map */
