@@ -76,59 +76,59 @@
                 </div>
                 <div class="parametr">
                     <p>Уровень шума внутреннего блока</p>
-                    <input type="text" name="param_3">
+                    <input type="text" name="param_4">
                 </div>
                 <div class="parametr">
                     <p>Напряжение питания</p>
-                    <input type="text" name="param_3">
+                    <input type="text" name="param_5">
                 </div>
                 <div class="parametr">
                     <p>Потребляемая мощность (охлаждение/обогрев)</p>
-                    <input type="text" name="param_3">
+                    <input type="text" name="param_6">
                 </div>
                 <div class="parametr">
                     <p>Номинальный ток (охлаждение/обогрев)</p>
-                    <input type="text" name="param_3">
+                    <input type="text" name="param_7">
                 </div>
                 <div class="parametr">
                     <p>Размеры внутреннего блока (Ш×В×Г)</p>
-                    <input type="text" name="param_3">
+                    <input type="text" name="param_8">
                 </div>
                 <div class="parametr">
                     <p>Размеры внешнего блока (Ш×В×Г)</p>
-                    <input type="text" name="param_3">
+                    <input type="text" name="param_9">
                 </div>
                 <div class="parametr">
                     <p>Вес нетто/брутто внутреннего блока</p>
-                    <input type="text" name="param_3">
+                    <input type="text" name="param_10">
                 </div>
                 <div class="parametr">
                     <p>Вес нетто/брутто внешнего блока</p>
-                    <input type="text" name="param_3">
+                    <input type="text" name="param_11">
                 </div>
                 <div class="parametr">
                     <p>Диаметр труб (жидкость/газ)</p>
-                    <input type="text" name="param_3">
+                    <input type="text" name="param_12">
                 </div>
                 <div class="parametr">
                     <p>Максимальная длина магистрали</p>
-                    <input type="text" name="param_3">
+                    <input type="text" name="param_13">
                 </div>
                 <div class="parametr">
                     <p>Максимальный перепад высот</p>
-                    <input type="text" name="param_3">
+                    <input type="text" name="param_14">
                 </div>
                 <div class="parametr">
                     <p>Хладагент</p>
-                    <input type="text" name="param_3">
+                    <input type="text" name="param_15">
                 </div>
                 <div class="parametr">
                     <p>Диапазон рабочих температур (охлаждение/обогрев)</p>
-                    <input type="text" name="param_3">
+                    <input type="text" name="param_16">
                 </div>
                 <div class="parametr">
                     <p>Марка компрессора</p>
-                    <input type="text" name="param_3">
+                    <input type="text" name="param_17">
                 </div>
             </div>
         </div>
