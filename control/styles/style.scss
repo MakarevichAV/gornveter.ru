@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    // font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    .main{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 80%;
+        height: 80%;
+        margin: auto;
+        // border: solid 1px red;
+        .site{
+            width: 10%;
+            height: 100%;
+            margin: auto 0 auto auto;
+            // background: green;
+            display: flex;
+            .block{
+                width: 70px;
+                height: 210px;
+                display: flex;
+                flex-direction: column;
+                background: #e4e3e3;
+                margin: 0 0 auto auto;
+                .btn{
+                    cursor: pointer;
+                    width: 60px;
+                    height: 60px;
+                    margin: auto;
+                    display: flex;
+                    // background: blue;
+                    &.info{
+                        background: #05abdf;
+                    }
+                    &.help{
+                        background: #7ab429;
+                    }
+                    &.feedback{
+                        background: #ca442c;
+                    }
+                    .ico{
+                        width: 50%;
+                        height: 50%;
+                        margin: auto;
+                        &.info{
+                            background: url('../ico/d_info.svg') center center / contain no-repeat;
+                        }
+                        &.help{
+                            background: url('../ico/d_faq.svg') center center / contain no-repeat;
+                        }
+                    }
+                }
+            }
+
+        }
+        .nav{
+            width: 80%;
+            height: 100%;
+            margin: auto auto auto 10px;
+            background: #e4e3e3;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            padding: 5px;
+            .btn{
+                cursor: pointer;
+                width: 30%;
+                height: 30%;
+                background: black;
+                display: flex;
+                flex-direction: column;
+                margin: auto;
+                &.contact{
+                    background: #01a3f3;
+                }
+                &.order{
+                    background: #01a3f3;
+                }
+                &.product{
+                    background: #01a3f3;
+                }
+                &.brand{
+                    background: #01a3f3;
+                }
+                &.price{
+                    background: #01a3f3;
+                }
+                &.feedback{
+                    background: #01a3f3;
+                }
+                &.profile{
+                    background: #01a3f3;
+                }
+                .ico{
+                    margin-top: 5%;
+                    width: 100%;
+                    height: 50%;
+                    &.contact{
+                        background: url('../ico/contact.svg') center center / contain no-repeat;
+                    }
+                    &.order{
+                        background: url('../ico/order.svg') center center / contain no-repeat;
+                    }
+                    &.product{
+                        background: url('../ico/product.svg') center center / contain no-repeat;
+                    }
+                    &.brand{
+                        background: url('../ico/brand.svg') center center / contain no-repeat;
+                    }
+                    &.price{
+                        background: url('../ico/price.svg') center center / contain no-repeat;
+                    }
+                    &.feedback{
+                        background: url('../ico/feedback.svg') center center / contain no-repeat;
+                    }
+                    &.profile{
+                        background: url('../ico/profile.svg') center center / contain no-repeat;
+                    }
+                }
+                .text{
+                    width: 100%;
+                    // height: 30%;
+                    // background: red;
+                    margin: auto auto 5px auto;
+                    padding-left: 8px;
+                    user-select: none;
+                    font-size: 1.2em;
+                    font-weight: 900;
+                    color: white;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+}

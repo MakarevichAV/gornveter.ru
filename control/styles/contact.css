@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.wrapper .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  width: 80%;
+  height: 80%;
+  margin: auto;
+}
+
+.wrapper .main .site {
+  width: 10%;
+  height: 100%;
+  margin: 0 0 auto auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper .main .site .block {
+  width: 70px;
+  height: 210px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #e4e3e3;
+  margin: 0 0 auto auto;
+}
+
+.wrapper .main .site .block .btn {
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper .main .site .block .btn.info {
+  background: #05abdf;
+}
+
+.wrapper .main .site .block .btn.help {
+  background: #7ab429;
+}
+
+.wrapper .main .site .block .btn.back {
+  background: #ca442c;
+}
+
+.wrapper .main .site .block .btn .ico {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+}
+
+.wrapper .main .site .block .btn .ico.info {
+  background: url("../ico/d_info.svg") center center/contain no-repeat;
+}
+
+.wrapper .main .site .block .btn .ico.help {
+  background: url("../ico/d_faq.svg") center center/contain no-repeat;
+}
+
+.wrapper .main .site .block .btn .ico.back {
+  background: url("../ico/d_back.svg") center center/contain no-repeat;
+}
+
+.wrapper .main .nav {
+  width: 80%;
+  min-height: 100%;
+  margin: auto auto auto 10px;
+  background: #01a3f3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5px;
+  color: white;
+}
+
+.wrapper .main .nav .f_contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper .main .nav .f_contact h1 {
+  text-align: center;
+}
+
+.wrapper .main .nav .f_contact h2 {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.wrapper .main .nav .f_contact input {
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.wrapper .main .nav .f_social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 5px;
+}
+
+.wrapper .main .nav .f_social .social_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.wrapper .main .nav .f_social .social_item input[type=checkbox] {
+  width: 40px;
+  height: 40px;
+}
+
+.wrapper .main .nav .f_social .social_item .social_ico {
+  width: 50px;
+  height: 50px;
+  background: red;
+  margin: 5px;
+}
+
+.wrapper .main .nav .f_social .social_item .social_ico.vk {
+  background: url("../ico/social_ico/vk.svg") center center/contain no-repeat;
+}
+
+.wrapper .main .nav .f_social .social_item .social_ico.insta {
+  background: url("../ico/social_ico/insta.svg") center center/contain no-repeat;
+}
+
+.wrapper .main .nav .f_social .social_item .social_ico.telega {
+  background: url("../ico/social_ico/telega.svg") center center/contain no-repeat;
+}
+
+.wrapper .main .nav .f_social .social_item .social_ico.watsapp {
+  background: url("../ico/social_ico/watsapp.svg") center center/contain no-repeat;
+}
+
+.wrapper .main .nav .f_social .social_item .social_ico.viber {
+  background: url("../ico/social_ico/viber.svg") center center/contain no-repeat;
+}
+
+.wrapper .main .nav form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-decoration: none;
+}
+
+.wrapper .main .nav form h1 {
+  text-decoration: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.wrapper .main .nav form input {
+  outline: none;
+  padding: 5px;
+  width: 100%;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.wrapper .main .nav form button {
+  cursor: pointer;
+  outline: none;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.wrapper .main .nav form button.bt {
+  padding: 20px;
+  font-size: 1.15em;
+}
+
+.wrapper .main .nav form button:hover {
+  background: gold;
+}
+
+.wrapper .main .nav .line {
+  width: 100%;
+  height: 2px;
+  background: black;
+  margin: 5px 0 5px 0;
+}
+/*# sourceMappingURL=contact.css.map */

@@ -1,0 +1,381 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.wrapper .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  width: 80%;
+  height: 80%;
+  height: 80%;
+  margin: auto;
+}
+
+.wrapper .main .site {
+  width: 10%;
+  height: 100%;
+  margin: auto 0 auto auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper .main .site .block {
+  width: 70px;
+  height: 210px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #e4e3e3;
+  margin: 0 0 auto auto;
+}
+
+.wrapper .main .site .block .btn {
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper .main .site .block .btn.info {
+  background: #05abdf;
+}
+
+.wrapper .main .site .block .btn.help {
+  background: #7ab429;
+}
+
+.wrapper .main .site .block .btn.back {
+  background: #ca442c;
+}
+
+.wrapper .main .site .block .btn .ico {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+}
+
+.wrapper .main .site .block .btn .ico.info {
+  background: url("../ico/d_info.svg") center center/contain no-repeat;
+}
+
+.wrapper .main .site .block .btn .ico.help {
+  background: url("../ico/d_faq.svg") center center/contain no-repeat;
+}
+
+.wrapper .main .site .block .btn .ico.back {
+  background: url("../ico/d_back.svg") center center/contain no-repeat;
+}
+
+.wrapper .main .nav {
+  width: 80%;
+  min-height: 100%;
+  margin: auto auto auto 10px;
+  background: #01a3f3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5px;
+}
+
+.wrapper .main .nav h1 {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.wrapper .main .nav p {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.wrapper .main .nav .alert {
+  border: solid 1px red;
+}
+
+.wrapper .main .nav .line {
+  width: 100%;
+  height: 2px;
+  background: black;
+  margin: 5px 0 5px 0;
+}
+
+.wrapper .main .nav form input {
+  outline: none;
+  padding: 5px;
+}
+
+.wrapper .main .nav form button {
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.wrapper .main .nav form button:hover {
+  background: gold;
+  color: black;
+  outline: none;
+}
+
+.wrapper .main .nav .product_card {
+  width: 98%;
+  height: 200px;
+  background: #eff6fb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  border-radius: 10px;
+  margin: 5px auto auto auto;
+}
+
+.wrapper .main .nav .product_card .card_info {
+  width: 75%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wrapper .main .nav .product_card .card_info .info {
+  width: 100%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.wrapper .main .nav .product_card .card_info .info .name, .wrapper .main .nav .product_card .card_info .info .price {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wrapper .main .nav .product_card .card_info .info .name .text, .wrapper .main .nav .product_card .card_info .info .price .text {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  text-decoration: underline;
+  color: #01a3f3;
+  font-size: 1.15em;
+  font-weight: 900;
+  padding: 5px 5px 0 5px;
+  text-align: center;
+}
+
+.wrapper .main .nav .product_card .card_info .info .name input, .wrapper .main .nav .product_card .card_info .info .price input {
+  width: 90%;
+  margin: auto;
+  font-size: 1.5em;
+  outline: none;
+  -webkit-box-shadow: inset 0 0 3px black;
+          box-shadow: inset 0 0 3px black;
+  padding: 5px;
+}
+
+.wrapper .main .nav .product_card .card_info .btns {
+  width: 100%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.wrapper .main .nav .product_card .card_info .btns .accept {
+  outline: none;
+  cursor: pointer;
+  width: 45%;
+  height: 50px;
+  background: #7ab429;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 1.05em;
+}
+
+.wrapper .main .nav .product_card .card_info .btns .del {
+  cursor: pointer;
+  width: 45%;
+  height: 50px;
+  background: #ca442c;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.wrapper .main .nav .product_card .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 25%;
+  height: 100%;
+}
+
+.wrapper .main .nav .product_card .logo form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #01a3f3;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper .main .nav .product_card .logo form p {
+  text-align: center;
+  color: white;
+  font-weight: 900;
+  font-size: 1.3em;
+}
+
+.wrapper .main .nav .product_card .logo form button {
+  margin: auto auto 5px auto;
+}
+
+.wrapper .main .nav .product_card .logo form .btn_upload {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: url(../ico/upload_photo.svg) center center/50% no-repeat;
+}
+
+.wrapper .main .nav .product_card .logo form .btn_upload input {
+  cursor: pointer;
+  margin: auto;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper .main .nav .product_card .logo_logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  width: 90%;
+  height: 90%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: 1px 3px 9px rgba(0, 0, 0, 0.25);
+          box-shadow: 1px 3px 9px rgba(0, 0, 0, 0.25);
+}
+
+.wrapper .main .nav .product_card .logo_logo:hover .logo_edit {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.wrapper .main .nav .product_card .logo_logo .logo_edit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: #01a3f3;
+  opacity: 0;
+}
+
+.wrapper .main .nav .product_card .logo_logo .logo_edit .logo_edit_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  color: white;
+  text-align: center;
+  padding: 7px;
+  border: solid 1px white;
+}
+/*# sourceMappingURL=product.css.map */

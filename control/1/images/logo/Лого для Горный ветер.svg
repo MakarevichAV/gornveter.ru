@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2020 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="213mm" height="214mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 21300 21400"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#2B2A29;stroke-width:20;stroke-miterlimit:22.9256}
+    .fil8 {fill:#E95821}
+    .fil7 {fill:#E63C24}
+    .fil6 {fill:#DC4F3C}
+    .fil1 {fill:#00F731}
+    .fil3 {fill:#2788F5}
+    .fil0 {fill:#4AD466}
+    .fil2 {fill:#6BA3E3}
+    .fil4 {fill:#F5F10C}
+    .fil5 {fill:#FFA316}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1984824384576">
+   <path class="fil0 str0" d="M3593 5809l1275 -4613c117,-406 396,-957 524,-1182l5583 10795 -6839 -3779 -542 -1221z"/>
+   <path class="fil1 str0" d="M5842 12940c-370,-110 -785,0 -1041,-454 -478,-1969 -849,-3498 -1326,-5467 -106,-494 36,-899 217,-1567 53,876 247,978 708,1271l6575 4088 -5133 2130z"/>
+   <path class="fil2 str0" d="M5797 17759l-4613 -1275c-406,-117 -957,-396 -1182,-524l10795 -5583 -3779 6839 -1221 542z"/>
+   <path class="fil3 str0" d="M12927 15510c-110,370 0,785 -454,1041 -1969,478 -3498,849 -5467,1326 -494,106 -899,-36 -1567,-217 876,-53 978,-247 1271,-708l4088 -6575 2130 5133z"/>
+   <path class="fil4 str0" d="M17711 15602l-1275 4613c-117,406 -396,957 -524,1182l-5583 -10795 6839 3779 542 1221z"/>
+   <path class="fil5 str0" d="M15462 8472c370,110 785,0 1041,454 478,1969 849,3498 1326,5467 106,494 -36,899 -217,1567 -53,-876 -247,-978 -708,-1271l-6575 -4088 5133 -2130z"/>
+   <path class="fil6 str0" d="M15507 3652l4613 1275c406,117 957,396 1182,524l-10795 5583 3779 -6839 1221 -542z"/>
+   <path class="fil7 str0" d="M8376 5901c110,-370 0,-785 454,-1041 1969,-478 3498,-849 5467,-1326 494,-106 899,36 1567,217 -876,53 -978,247 -1271,708l-4088 6575 -2130 -5133z"/>
+   <circle class="fil8 str0" cx="10649" cy="10707" r="500"/>
+  </g>
+ </g>
+</svg>
