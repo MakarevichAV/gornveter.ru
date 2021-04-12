@@ -17,7 +17,7 @@
         <div class="header__menu-mobile">
             <ul>
                 <li class="header__menu-item"><a
-                        href="../index.html">Главная</a></li>
+                        href="../">Главная</a></li>
                 <li class="header__menu-item drop-down-container">
                     Наши услуги
                     <span class="menu-item__arrow">&#9660;</span>
@@ -38,12 +38,12 @@
                     </ul>
                 </li>
                 <li class="header__menu-item"><a
-                        href="../index.html#goods">Продукция</a></li>
+                        href="../index.php#goods">Продукция</a></li>
                 <li class="header__menu-item"><a
-                        href="../index.html#about">О нас</a></li>
+                        href="../index.php#about">О нас</a></li>
                 <li class="header__menu-item header__menu-item--active">Цены</li>
                 <li class="header__menu-item"><a
-                        href="../index.html#contact">Контакты</a></li>
+                        href="../index.php#contact">Контакты</a></li>
             </ul>
             <div class="info-footer__contact contact">
                 <div class="contact__item">
@@ -81,7 +81,7 @@
                 </div>
                 <div class="header__menu">
                     <ul>
-                        <li class="header__menu-item"><a href="../index.html">Главная</a></li>
+                        <li class="header__menu-item"><a href="../">Главная</a></li>
                         <li class="header__menu-item drop-down-container">
                             Наши услуги
                             <span class="menu-item__arrow">&#9660;</span>
@@ -102,12 +102,12 @@
                             </ul>
                         </li>
                         <li class="header__menu-item"><a
-                                href="../index.html#goods">Продукция</a></li>
+                                href="../index.php#goods">Продукция</a></li>
                         <li class="header__menu-item"><a
-                                href="../index.html#about">О нас</a></li>
+                                href="../index.php#about">О нас</a></li>
                         <li class="header__menu-item header__menu-item--active">Цены</li>
                         <li class="header__menu-item"><a
-                                href="../index.html#contact">Контакты</a></li>
+                                href="../index.php#contact">Контакты</a></li>
                     </ul>
                 </div>
                 <div class="header__menu-button">
@@ -137,7 +137,7 @@
                 <div class="header__menu">
                     <ul>
                         <li class="header__menu-item"><a
-                                href="../index.html">Главная</a></li>
+                                href="../">Главная</a></li>
                         <li class="header__menu-item drop-down-container">
                             Наши услуги
                             <span class="menu-item__arrow">&#9660;</span>
@@ -158,12 +158,12 @@
                             </ul>
                         </li>
                         <li class="header__menu-item"><a
-                                href="../index.html#goods">Продукция</a></li>
+                                href="../index.php#goods">Продукция</a></li>
                         <li class="header__menu-item"><a
-                                href="../index.html#about">О нас</a></li>
+                                href="../index.php#about">О нас</a></li>
                         <li class="header__menu-item header__menu-item--active">Цены</li>
                         <li class="header__menu-item"><a
-                                href="../index.html#contact">Контакты</a></li>
+                                href="../index.php#contact">Контакты</a></li>
                     </ul>
                 </div>
                 <div class="header__menu-button">
@@ -373,15 +373,15 @@
                     <div class="footer__menu">
                         <ul class="footer__menu-block">
                             <li class="footer__menu-item"><a
-                                    href="../index.html">Главная</a></li>
+                                    href="../">Главная</a></li>
                             <li class="footer__menu-item"><a
-                                    href="../index.html#goods">Продукция</a></li>
+                                    href="../index.php#goods">Продукция</a></li>
                             <li class="footer__menu-item"><a
-                                    href="../index.html#about">О нас</a></li>
+                                    href="../index.php#about">О нас</a></li>
                             <li class="footer__menu-item"><a
                                     href="#top">Цены</a></li>
                             <li class="footer__menu-item"><a
-                                    href="../index.html#contact">Контакты</a></li>
+                                    href="../index.php#contact">Контакты</a></li>
                         </ul>
                         <ul class="footer__menu-block">
                             <li class="footer__menu-item"><a

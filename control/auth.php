@@ -22,7 +22,6 @@
                 <button class="btn btn-green">Войти</button>
             </form>
         </div>
-    
     </div>
     
 </body>

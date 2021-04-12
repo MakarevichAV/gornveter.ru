@@ -39,7 +39,7 @@
                 <li class="header__menu-item local-menu"><a href="#goods">Продукция</a></li>
                 <li class="header__menu-item local-menu"><a href="#about">О нас</a></li>
                 <li class="header__menu-item"><a
-                        href="./pages/price.html">Цены</a></li>
+                        href="./pages/price.php">Цены</a></li>
                 <li class="header__menu-item local-menu"><a href="#contact">Контакты</a></li>
             </ul>
             <div class="info-footer__contact contact">
@@ -103,7 +103,7 @@
                         <li class="header__menu-item local-menu"><a
                                 href="#about">О нас</a></li>
                         <li class="header__menu-item"><a
-                                href="./pages/price.html">Цены</a></li>
+                                href="./pages/price.php">Цены</a></li>
                         <li class="header__menu-item local-menu"><a
                                 href="#contact">Контакты</a></li>
                     </ul>
@@ -159,7 +159,7 @@
                         <li class="header__menu-item local-menu"><a
                                 href="#about">О нас</a></li>
                         <li class="header__menu-item"><a
-                                href="./pages/price.html">Цены</a></li>
+                                href="./pages/price.php">Цены</a></li>
                         <li class="header__menu-item local-menu"><a
                                 href="#contact">Контакты</a></li>
                     </ul>
@@ -604,16 +604,16 @@
                             <li class="footer__menu-item local-menu"><a
                                     href="#about">О нас</a></li>
                             <li class="footer__menu-item"><a
-                                    href="./pages/price.html">Цены</a></li>
+                                    href="./pages/price.php">Цены</a></li>
                             <li class="footer__menu-item local-menu"><a
                                     href="#contact">Контакты</a></li>
                         </ul>
                         <ul class="footer__menu-block">
                             <li class="footer__menu-item"><a
-                                    href="./pages/service.html">Монтаж
+                                    href="./pages/service.php">Монтаж
                                     сплит-ситем</a></li>
                             <li class="footer__menu-item"><a
-                                    href="./pages/service.html">Закладка
+                                    href="./pages/service.php">Закладка
                                     коммуникаций</a></li>
                             <li class="footer__menu-item"><a
                                     href="./pages/service.php">Чистка и
