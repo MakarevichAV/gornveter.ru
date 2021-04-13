@@ -3,7 +3,6 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
-    // font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
 }
@@ -22,12 +21,10 @@
         width: 80%;
         height: 80%;
         margin: auto;
-        // border: solid 1px red;
         .site{
             width: 10%;
             height: 100%;
             margin: auto 0 auto auto;
-            // background: green;
             display: flex;
             .block{
                 width: 70px;
@@ -42,7 +39,6 @@
                     height: 60px;
                     margin: auto;
                     display: flex;
-                    // background: blue;
                     &.info{
                         background: #05abdf;
                     }
@@ -102,7 +98,6 @@
                 button{
                     cursor: pointer;
                     padding: 5px;
-                    // border-radius: 5px;
                     &:hover{
                         background: gold;
                         color: black;
@@ -117,20 +112,16 @@
                 flex-wrap: wrap;
                 background: #05abdf;
                 .item{
-                    // border: solid 1px red;
                     border: solid 1px gray;
                     width: 30%;
                     height: 100px;
-                    // background: red;
                     background: #eff6fb;
                     margin: 5px auto;
                     background-position: center center;
                     background-size: contain;
-                    // background-image: url('../../images/brands/ch.png');
                     background-repeat: no-repeat;
                     cursor: pointer;
                     box-shadow: 1px 3px 9px rgba(255, 255, 255, 0.5s);
-                    // border: solid 5px #05abdf;
                     background-size: 62%;
                     border-radius: 8px;
                     form{
@@ -142,7 +133,6 @@
                             opacity: 1;
                         }
                         button{
-                            // background: rgba(255, 0, 0, 0.164);
                             background: rgba(0, 0, 0, 0.9);
                             width: 100%;
                             height: 100%;
