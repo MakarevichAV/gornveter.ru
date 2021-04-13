@@ -107,7 +107,7 @@
                 <form method="post" enctype="multipart/form-data">
                 <p>Загрузка фото бренда: </p>
                 <input type="file" name="picture">
-                <input type="submit" value="Загрузить">
+                <button type="submit">Загрузить</button>
                 </form>
                 <h1>Удалить бренд</h1>
                 <div class="del">

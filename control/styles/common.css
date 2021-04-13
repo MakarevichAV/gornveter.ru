@@ -119,7 +119,7 @@
 }
 
 .wrapper .main .nav .alert {
-  border: solid 1px red;
+  color: white;
 }
 
 .wrapper .main .nav .line {
@@ -364,7 +364,8 @@
   margin-bottom: 10px;
 }
 
-.parametr p, .parametr input {
+.parametr p,
+.parametr input {
   width: 50%;
 }
 

@@ -140,6 +140,7 @@
 .wrapper .main .nav form input {
   outline: none;
   padding: 5px;
+  color: white;
 }
 
 .wrapper .main .nav form button {
@@ -180,6 +181,7 @@
   -webkit-box-shadow: 1px 3px 9px rgba(255, 255, 255, 0.5);
           box-shadow: 1px 3px 9px rgba(255, 255, 255, 0.5);
   background-size: 62%;
+  border-radius: 8px;
 }
 
 .wrapper .main .nav .del .item form {

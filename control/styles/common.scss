@@ -92,7 +92,7 @@
             }
 
             .alert {
-                border: solid 1px red;
+                color: white;
             }
 
             .line {
@@ -103,7 +103,7 @@
             }
 
             form {
-                
+
 
                 button {
                     cursor: pointer;
@@ -297,7 +297,9 @@
     display: flex;
     margin-bottom: 10px;
 }
-.parametr p, .parametr input {
+
+.parametr p,
+.parametr input {
     width: 50%;
 }
 
@@ -315,6 +317,7 @@
     color: white;
     background: #7ab429;
     padding: 10px;
+
     &:hover {
         background: gold;
     }

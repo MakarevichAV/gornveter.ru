@@ -86,7 +86,6 @@
                 user-select: none;
             }
             .alert{
-                // border: solid 1px red;
             }
             .line{
                 width: 100%;
@@ -98,7 +97,7 @@
                 input{
                     outline: none;
                     padding: 5px;
-
+                    color: white;
                 }
                 button{
                     cursor: pointer;
@@ -133,7 +132,7 @@
                     box-shadow: 1px 3px 9px rgba(255, 255, 255, 0.5s);
                     // border: solid 5px #05abdf;
                     background-size: 62%;
-                    
+                    border-radius: 8px;
                     form{
                         display: flex;
                         width: 100%;
