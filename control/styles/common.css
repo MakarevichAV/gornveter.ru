@@ -415,4 +415,41 @@ h2 {
 p {
   color: white;
 }
+
+.load-file {
+  width: 100%;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 8px;
+  background: #EFEFEF;
+  text-align: center;
+  font-size: 18px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.load-file:hover {
+  background: gold;
+}
+
+.photo-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.photo-block label {
+  width: 50%;
+  padding: 0 10px 0 0;
+}
+
+.photo-block__picture {
+  width: 50%;
+  height: 250px;
+  background: white url(../ico/38967.png) no-repeat center center/contain;
+  border-radius: 8px;
+}
 /*# sourceMappingURL=common.css.map */

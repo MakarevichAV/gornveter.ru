@@ -27,10 +27,12 @@
             </div>
             <div class="nav">
                 <ul class="menu">
-                    <li><a href="./product_adding.php">Новая модель</a></li>
+                    <li><a href="./system_adding.php">Создать продукт</a></li>
+                    <li><a href="./system_editing.php">Изменить продукт</a></li>
+                    <li><a href="./product_adding.php">Создать модель</a></li>
                     <li>Изменить модель</li>
                 </ul>
-                <h1>Редоктирование карточки продукта</h1>
+                <h1>Редоктирование модели</h1>
                 <form action="">
                     <select name="system_name">
                         <option>Выберите систему</option>
