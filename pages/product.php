@@ -1,3 +1,6 @@
+<?php
+include($_SERVER['DOCUMENT_ROOT'] . '/requests/contacts_request.php');
+?>
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -42,14 +45,14 @@
             <div class="contact__item">
                 <div class="contact__picture img-phone section__img-phone"></div>
                 <div class="contact__numbers section__numbers">
-                    <a href="tel:+79128878469">+7 912 887-84-69</a>
-                    <a href="tel:+79526453255">+7 952 645-32-55</a>
+                    <a href="tel:<?= $tel1 ?>"><?= $tel1 ?></a>
+                    <a href="tel:<?= $tel2 ?>"><?= $tel2 ?></a>
                 </div>
             </div>
             <div class="contact__item">
                 <div class="contact__picture img-email section__img-email"></div>
                 <div class="contact__email section__email">
-                    <a href="email:gornveter@mail.ru">gornveter@mail.ru</a>
+                    <a href="email:<?= $mail ?>"><?= $mail ?></a>
                 </div>
             </div>
         </div>
@@ -424,18 +427,13 @@
                         <div class="el9"></div>
                     </div>
                     <div class="social">
-                        <a href="vk.com" class="social__icon" style="background:
-                                url(../images/icon/vk.svg) no-repeat center
-                                center /
-                                contain;"></a>
-                        <a href="instagram.com" class="social__icon" style="background: url(../images/icon/insta.svg)
-                                no-repeat center center / contain;"></a>
-                        <a href="https://tlgg.ru/@dunkan89" class="social__icon" style="background: url(../images/icon/tg.svg)
-                                no-repeat center center / contain;"></a>
-                        <a href="https://wa.me/79082548861?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%AF%20%D0%B1%D1%8B%20%D1%85%D0%BE%D1%82%D0%B5%D0%BB%20%D0%BF%D1%80%D0%BE%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%D1%81%D1%8F" class="social__icon" style="background: url(../images/icon/wp.svg)
-                                no-repeat center center / contain;"></a>
-                        <a href="https://viber.click/79082548861" class="social__icon" style="background: url(../images/icon/vb.svg)
-                                no-repeat center center / contain;"></a>
+                        <?php foreach ($social_nets as $val) : ?>
+                            <?php if ($val['active'] == 1) : ?>
+                                <a href="<?= $val['link'] ?>" class="social__icon" style="background:
+                                url(../images/icon/<?= $val['name'] ?>.svg) no-repeat center center /
+                                contain"></a>
+                            <?php endif; ?>
+                        <?php endforeach; ?>
                     </div>
                 </div>
 
@@ -443,14 +441,14 @@
                     <div class="contact__item">
                         <div class="contact__picture img-phone"></div>
                         <div class="contact__numbers">
-                            <a href="tel:+79128878469">+7 912 887-84-69</a>
-                            <a href="tel:+79526453255">+7 952 645-32-55</a>
+                            <a href="tel:<?= $tel1 ?>"><?= $tel1 ?></a>
+                            <a href="tel:<?= $tel2 ?>"><?= $tel2 ?></a>
                         </div>
                     </div>
                     <div class="contact__item">
                         <div class="contact__picture img-email"></div>
                         <div class="contact__email">
-                            <a href="email:gornveter@mail.ru">gornveter@mail.ru</a>
+                            <a href="email:<?= $mail ?>"><?= $mail ?></a>
                         </div>
                     </div>
                 </div>
@@ -502,8 +500,8 @@
                     данных</a>
                 <h5 class="">Или позвоните нам</h5>
                 <div class="contact__numbers">
-                    <a href="tel:+79128878469">+7 912 887-84-69</a>
-                    <a href="tel:+79526453255">+7 952 645-32-55</a>
+                    <a href="tel:<?= $tel1 ?>"><?= $tel1 ?></a>
+                    <a href="tel:<?= $tel2 ?>"><?= $tel2 ?></a>
                 </div>
             </form>
         </div>
@@ -551,8 +549,8 @@
                     данных</a>
                 <h5 class="">Или позвоните нам</h5>
                 <div class="contact__numbers">
-                    <a href="tel:+79128878469">+7 912 887-84-69</a>
-                    <a href="tel:+79526453255">+7 952 645-32-55</a>
+                    <a href="tel:<?= $tel1 ?>"><?= $tel1 ?></a>
+                    <a href="tel:<?= $tel2 ?>"><?= $tel2 ?></a>
                 </div>
             </form>
         </div>
@@ -583,8 +581,8 @@
                     данных</a>
                 <h5 class="">Или позвоните нам</h5>
                 <div class="contact__numbers">
-                    <a href="tel:+79128878469">+7 912 887-84-69</a>
-                    <a href="tel:+79526453255">+7 952 645-32-55</a>
+                    <a href="tel:<?= $tel1 ?>"><?= $tel1 ?></a>
+                    <a href="tel:<?= $tel2 ?>"><?= $tel2 ?></a>
                 </div>
             </form>
         </div>

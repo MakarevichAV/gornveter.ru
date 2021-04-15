@@ -1,6 +1,5 @@
 <?php
-include('./requests/contacts_request.php');
-
+include($_SERVER['DOCUMENT_ROOT'] . '/requests/contacts_request.php');
 ?>
 <!DOCTYPE html>
 <html lang="ru">
